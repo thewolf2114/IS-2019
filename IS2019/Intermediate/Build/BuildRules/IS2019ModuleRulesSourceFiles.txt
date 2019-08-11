@@ -1,0 +1,3 @@
+C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Source\IS2019\IS2019.Build.cs
+C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Source\IS2019.Target.cs
+C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Source\IS2019Editor.Target.cs
