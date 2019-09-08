@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -51,13 +51,17 @@ void EmptyLinkFunctionForGeneratedCodeIS2019GameMode() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AIS2019GameMode_Statics::ClassParams = {
 		&AIS2019GameMode::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x008802A8u,
-		nullptr, 0,
-		nullptr, 0,
 		nullptr,
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		nullptr,
+		nullptr,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		0,
+		0,
+		0,
+		0x008802A8u,
 		METADATA_PARAMS(Z_Construct_UClass_AIS2019GameMode_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AIS2019GameMode_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AIS2019GameMode()
@@ -69,7 +73,11 @@ void EmptyLinkFunctionForGeneratedCodeIS2019GameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AIS2019GameMode, 4072786075);
+	IMPLEMENT_CLASS(AIS2019GameMode, 401286535);
+	template<> IS2019_API UClass* StaticClass<AIS2019GameMode>()
+	{
+		return AIS2019GameMode::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AIS2019GameMode(Z_Construct_UClass_AIS2019GameMode, &AIS2019GameMode::StaticClass, TEXT("/Script/IS2019"), TEXT("AIS2019GameMode"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AIS2019GameMode);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

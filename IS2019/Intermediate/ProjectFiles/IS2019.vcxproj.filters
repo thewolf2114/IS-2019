@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\IS2019.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F7E5EBE6-423C-4CD0-AD18-A1EE73DF8931}</UniqueIdentifier>
+      <UniqueIdentifier>{DA33126F-974B-4CF3-A852-183A4D923810}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\IS2019.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{FD191331-E5B7-4088-81B7-3C58FD10CEFD}</UniqueIdentifier>
+      <UniqueIdentifier>{E72E21A0-62CC-43E8-BC5F-2D09745DEBB0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\IS2019">
-      <UniqueIdentifier>{185D32AB-D718-4CFB-95F2-86520F72F118}</UniqueIdentifier>
+      <UniqueIdentifier>{47B791BC-B6E5-4AAB-AEBD-DAF6B602771E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\IS2019\IS2019.Build.cs">
       <Filter>Source\IS2019</Filter>

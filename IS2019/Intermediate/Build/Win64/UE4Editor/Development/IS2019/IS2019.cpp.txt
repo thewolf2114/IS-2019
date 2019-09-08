@@ -1,0 +1,2 @@
+C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\Definitions.IS2019.h
+c:\users\rion cole\desktop\is-2019\is2019\source\is2019\IS2019.h

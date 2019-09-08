@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -68,21 +68,21 @@ void EmptyLinkFunctionForGeneratedCodeIS2019Projectile() {}
 		{ "NativeConst", "" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_Hit = { UE4CodeGen_Private::EPropertyClass::Struct, "Hit", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010008008000182, 1, nullptr, STRUCT_OFFSET(IS2019Projectile_eventOnHit_Parms, Hit), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_Hit_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_Hit_MetaData)) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_NormalImpulse = { UE4CodeGen_Private::EPropertyClass::Struct, "NormalImpulse", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(IS2019Projectile_eventOnHit_Parms, NormalImpulse), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_Hit = { "Hit", nullptr, (EPropertyFlags)0x0010008008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(IS2019Projectile_eventOnHit_Parms, Hit), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_Hit_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_Hit_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_NormalImpulse = { "NormalImpulse", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(IS2019Projectile_eventOnHit_Parms, NormalImpulse), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_OtherComp_MetaData[] = {
 		{ "EditInline", "true" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_OtherComp = { UE4CodeGen_Private::EPropertyClass::Object, "OtherComp", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080080, 1, nullptr, STRUCT_OFFSET(IS2019Projectile_eventOnHit_Parms, OtherComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_OtherComp_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_OtherComp_MetaData)) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_OtherActor = { UE4CodeGen_Private::EPropertyClass::Object, "OtherActor", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(IS2019Projectile_eventOnHit_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_OtherComp = { "OtherComp", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(IS2019Projectile_eventOnHit_Parms, OtherComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_OtherComp_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_OtherComp_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(IS2019Projectile_eventOnHit_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_HitComp_MetaData[] = {
 		{ "EditInline", "true" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_HitComp = { UE4CodeGen_Private::EPropertyClass::Object, "HitComp", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080080, 1, nullptr, STRUCT_OFFSET(IS2019Projectile_eventOnHit_Parms, HitComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_HitComp_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_HitComp_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_HitComp = { "HitComp", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(IS2019Projectile_eventOnHit_Parms, HitComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_HitComp_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_HitComp_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_Hit,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::NewProp_NormalImpulse,
@@ -92,11 +92,12 @@ void EmptyLinkFunctionForGeneratedCodeIS2019Projectile() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "/** called when projectile hits something */" },
 		{ "ModuleRelativePath", "IS2019Projectile.h" },
 		{ "ToolTip", "called when projectile hits something" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AIS2019Projectile, "OnHit", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00C20401, sizeof(IS2019Projectile_eventOnHit_Parms), Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AIS2019Projectile, nullptr, "OnHit", nullptr, nullptr, sizeof(IS2019Projectile_eventOnHit_Parms), Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00C20401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AIS2019Projectile_OnHit_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AIS2019Projectile_OnHit()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -134,7 +135,7 @@ void EmptyLinkFunctionForGeneratedCodeIS2019Projectile() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_IS2019,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AIS2019Projectile_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AIS2019Projectile_OnHit, "OnHit" }, // 4215769549
+		{ &Z_Construct_UFunction_AIS2019Projectile_OnHit, "OnHit" }, // 4197530346
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIS2019Projectile_Statics::Class_MetaDataParams[] = {
@@ -146,21 +147,23 @@ void EmptyLinkFunctionForGeneratedCodeIS2019Projectile() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIS2019Projectile_Statics::NewProp_ProjectileMovement_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Movement" },
+		{ "Comment", "/** Projectile movement component */" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "IS2019Projectile.h" },
 		{ "ToolTip", "Projectile movement component" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIS2019Projectile_Statics::NewProp_ProjectileMovement = { UE4CodeGen_Private::EPropertyClass::Object, "ProjectileMovement", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000a001d, 1, nullptr, STRUCT_OFFSET(AIS2019Projectile, ProjectileMovement), Z_Construct_UClass_UProjectileMovementComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIS2019Projectile_Statics::NewProp_ProjectileMovement_MetaData, ARRAY_COUNT(Z_Construct_UClass_AIS2019Projectile_Statics::NewProp_ProjectileMovement_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIS2019Projectile_Statics::NewProp_ProjectileMovement = { "ProjectileMovement", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIS2019Projectile, ProjectileMovement), Z_Construct_UClass_UProjectileMovementComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIS2019Projectile_Statics::NewProp_ProjectileMovement_MetaData, ARRAY_COUNT(Z_Construct_UClass_AIS2019Projectile_Statics::NewProp_ProjectileMovement_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIS2019Projectile_Statics::NewProp_CollisionComp_MetaData[] = {
 		{ "Category", "Projectile" },
+		{ "Comment", "/** Sphere collision component */" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "IS2019Projectile.h" },
 		{ "ToolTip", "Sphere collision component" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIS2019Projectile_Statics::NewProp_CollisionComp = { UE4CodeGen_Private::EPropertyClass::Object, "CollisionComp", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(AIS2019Projectile, CollisionComp), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIS2019Projectile_Statics::NewProp_CollisionComp_MetaData, ARRAY_COUNT(Z_Construct_UClass_AIS2019Projectile_Statics::NewProp_CollisionComp_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIS2019Projectile_Statics::NewProp_CollisionComp = { "CollisionComp", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIS2019Projectile, CollisionComp), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIS2019Projectile_Statics::NewProp_CollisionComp_MetaData, ARRAY_COUNT(Z_Construct_UClass_AIS2019Projectile_Statics::NewProp_CollisionComp_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AIS2019Projectile_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIS2019Projectile_Statics::NewProp_ProjectileMovement,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIS2019Projectile_Statics::NewProp_CollisionComp,
@@ -170,13 +173,17 @@ void EmptyLinkFunctionForGeneratedCodeIS2019Projectile() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AIS2019Projectile_Statics::ClassParams = {
 		&AIS2019Projectile::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x008000A0u,
-		FuncInfo, ARRAY_COUNT(FuncInfo),
-		Z_Construct_UClass_AIS2019Projectile_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_AIS2019Projectile_Statics::PropPointers),
 		"Game",
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		FuncInfo,
+		Z_Construct_UClass_AIS2019Projectile_Statics::PropPointers,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		ARRAY_COUNT(FuncInfo),
+		ARRAY_COUNT(Z_Construct_UClass_AIS2019Projectile_Statics::PropPointers),
+		0,
+		0x008000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_AIS2019Projectile_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AIS2019Projectile_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AIS2019Projectile()
@@ -188,7 +195,11 @@ void EmptyLinkFunctionForGeneratedCodeIS2019Projectile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AIS2019Projectile, 3553885233);
+	IMPLEMENT_CLASS(AIS2019Projectile, 2077883088);
+	template<> IS2019_API UClass* StaticClass<AIS2019Projectile>()
+	{
+		return AIS2019Projectile::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AIS2019Projectile(Z_Construct_UClass_AIS2019Projectile, &AIS2019Projectile::StaticClass, TEXT("/Script/IS2019"), TEXT("AIS2019Projectile"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AIS2019Projectile);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

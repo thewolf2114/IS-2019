@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -51,13 +51,17 @@ void EmptyLinkFunctionForGeneratedCodeIS2019HUD() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AIS2019HUD_Statics::ClassParams = {
 		&AIS2019HUD::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x008002ACu,
-		nullptr, 0,
-		nullptr, 0,
 		"Game",
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		nullptr,
+		nullptr,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		0,
+		0,
+		0,
+		0x008002ACu,
 		METADATA_PARAMS(Z_Construct_UClass_AIS2019HUD_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AIS2019HUD_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AIS2019HUD()
@@ -69,7 +73,11 @@ void EmptyLinkFunctionForGeneratedCodeIS2019HUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AIS2019HUD, 2098018204);
+	IMPLEMENT_CLASS(AIS2019HUD, 1207585658);
+	template<> IS2019_API UClass* StaticClass<AIS2019HUD>()
+	{
+		return AIS2019HUD::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AIS2019HUD(Z_Construct_UClass_AIS2019HUD, &AIS2019HUD::StaticClass, TEXT("/Script/IS2019"), TEXT("AIS2019HUD"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AIS2019HUD);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

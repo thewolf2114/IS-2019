@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -122,6 +122,8 @@ public: \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
+
+template<> IS2019_API UClass* StaticClass<class AIS2019Projectile>();
 
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID IS2019_Source_IS2019_IS2019Projectile_h
