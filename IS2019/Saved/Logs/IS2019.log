@@ -690,3 +690,1217 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.09.21-21.36.02:443][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.09.21-21.36.02:447][313]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
 [2019.09.21-21.36.02:498][316]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.09.21-21.36.40:666][887]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.21-21.36.52:301][584]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.09.21-21.37.23:818][474]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.09.21-21.37.26:103][610]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.09.21-21.37.41:080][508]BlueprintLog: New page: Compile BP_Vintage
+[2019.09.21-21.37.41:269][508]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2019.09.21-21.37.41:706][533]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Vintage" FILE="../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Blueprints/BP_Vintage.uasset" SILENT=true
+[2019.09.21-21.37.41:727][533]LogSavePackage: Moving '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/BP_Vintage8A2F42304F39619AA2AD179D08933D88.tmp' to '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Blueprints/BP_Vintage.uasset'
+[2019.09.21-21.37.44:104][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RionAITestScene" FILE="../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Maps/RionAITestScene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.09.21-21.37.44:133][675]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2019.09.21-21.37.44:304][675]LogSavePackage: Moving '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/RionAITestSceneF383B2DA406DA4E760CAF2AFA2FF54BC.tmp' to '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Maps/RionAITestScene.umap'
+[2019.09.21-21.37.45:863][767]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.21-21.37.45:875][767]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.37.45:875][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.21-21.37.45:876][767]PIE: New page: PIE session: RionAITestScene (Sep 21, 2019, 9:37:45 AM)
+[2019.09.21-21.37.45:876][767]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RionAITestScene
+[2019.09.21-21.37.45:881][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004889s)
+[2019.09.21-21.37.45:881][767]LogAIModule: Creating AISystem for world RionAITestScene
+[2019.09.21-21.37.45:881][767]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2019.09.21-21.37.45:881][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RionAITestScene.RionAITestScene to /Game/Maps/UEDPIE_0_RionAITestScene.RionAITestScene (0.005791s)
+[2019.09.21-21.37.45:910][767]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2019.09.21-21.37.45:924][767]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.09.21-21.37.45:969][767]LogInit: FAudioDevice initialized.
+[2019.09.21-21.37.45:973][767]LogLoad: Game class is 'IS2019GameMode'
+[2019.09.21-21.37.45:975][767]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RionAITestScene.RionAITestScene up for play (max tick rate 60) at 2019.09.21-15.37.45
+[2019.09.21-21.37.45:976][767]LogWorld: Bringing up level for play took: 0.001948
+[2019.09.21-21.37.45:976][767]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2019.09.21-21.37.45:978][767]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_RionAITestScene 0.75
+[2019.09.21-21.37.45:978][767]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.38.01:502][698]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.38.01:502][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.21-21.38.01:502][698]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RionAITestScene
+[2019.09.21-21.38.01:502][698]LogWorld: UWorld::CleanupWorld for RionAITestScene, bSessionEnded=true, bCleanupResources=true
+[2019.09.21-21.38.01:512][698]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.21-21.38.01:513][698]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.38.01:547][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.21-21.38.01:551][698]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2019.09.21-21.38.01:616][702]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.09.21-21.38.04:365][867]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.21-21.39.49:288][482]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.09.21-21.40.26:813][729]LogAnimation: Warning: AnimBP TutorialTPP_AnimBlueprint_C is incompatible with skeleton DefaultSkeletalMesh_Skeleton, removing AnimBP from actor.
+[2019.09.21-21.40.26:813][729]LogAnimation: Warning: AnimBP TutorialTPP_AnimBlueprint_C is incompatible with skeleton DefaultSkeletalMesh_Skeleton, removing AnimBP from actor.
+[2019.09.21-21.40.26:813][729]LogAnimation: Warning: AnimBP TutorialTPP_AnimBlueprint_C is incompatible with skeleton DefaultSkeletalMesh_Skeleton, removing AnimBP from actor.
+[2019.09.21-21.40.26:813][729]LogAnimation: Warning: AnimBP TutorialTPP_AnimBlueprint_C is incompatible with skeleton DefaultSkeletalMesh_Skeleton, removing AnimBP from actor.
+[2019.09.21-21.41.09:347][280]BlueprintLog: New page: Compile BP_Vintage
+[2019.09.21-21.41.09:540][280]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2019.09.21-21.41.09:926][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Vintage" FILE="../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Blueprints/BP_Vintage.uasset" SILENT=true
+[2019.09.21-21.41.09:952][302]LogSavePackage: Moving '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/BP_Vintage4A5060CD49F6ABEC99F305A9E30C4E07.tmp' to '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Blueprints/BP_Vintage.uasset'
+[2019.09.21-21.41.12:051][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RionAITestScene" FILE="../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Maps/RionAITestScene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.09.21-21.41.12:082][427]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2019.09.21-21.41.12:257][427]LogSavePackage: Moving '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/RionAITestScene56A274784D8483A4F52F4091FCA2D54E.tmp' to '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Maps/RionAITestScene.umap'
+[2019.09.21-21.41.13:228][484]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.21-21.41.13:242][484]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.41.13:242][484]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.21-21.41.13:242][484]PIE: New page: PIE session: RionAITestScene (Sep 21, 2019, 9:41:13 AM)
+[2019.09.21-21.41.13:242][484]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RionAITestScene
+[2019.09.21-21.41.13:247][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004913s)
+[2019.09.21-21.41.13:248][484]LogAIModule: Creating AISystem for world RionAITestScene
+[2019.09.21-21.41.13:248][484]LogPlayLevel: PIE: World Init took: (0.001121s)
+[2019.09.21-21.41.13:249][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RionAITestScene.RionAITestScene to /Game/Maps/UEDPIE_0_RionAITestScene.RionAITestScene (0.006193s)
+[2019.09.21-21.41.13:278][484]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2019.09.21-21.41.13:291][484]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.09.21-21.41.13:336][484]LogInit: FAudioDevice initialized.
+[2019.09.21-21.41.13:343][484]LogLoad: Game class is 'IS2019GameMode'
+[2019.09.21-21.41.13:345][484]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RionAITestScene.RionAITestScene up for play (max tick rate 60) at 2019.09.21-15.41.13
+[2019.09.21-21.41.13:346][484]LogWorld: Bringing up level for play took: 0.001948
+[2019.09.21-21.41.13:346][484]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2019.09.21-21.41.13:348][484]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_RionAITestScene 0.119
+[2019.09.21-21.41.13:348][484]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.41.19:722][866]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.41.19:722][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.21-21.41.19:722][866]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RionAITestScene
+[2019.09.21-21.41.19:722][866]LogWorld: UWorld::CleanupWorld for RionAITestScene, bSessionEnded=true, bCleanupResources=true
+[2019.09.21-21.41.19:730][866]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.21-21.41.19:730][866]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.41.19:763][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.21-21.41.19:766][866]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2019.09.21-21.41.19:832][870]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.09.21-21.41.26:317][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.21-21.41.26:492][269]LogAssetEditorManager: Opening Asset editor for Class /Script/AIModule.AIController
+[2019.09.21-21.41.28:587][348]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2019.09.21-21.46.41:193][967]BlueprintLog: New page: Compile BP_Vintage
+[2019.09.21-21.46.41:395][967]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2019.09.21-21.46.41:837][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Vintage" FILE="../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Blueprints/BP_Vintage.uasset" SILENT=true
+[2019.09.21-21.46.41:862][992]LogSavePackage: Moving '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/BP_VintageA44DE2ED44BBDA6E908913ABD7606148.tmp' to '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Blueprints/BP_Vintage.uasset'
+[2019.09.21-21.46.44:629][158]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.21-21.46.44:642][158]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.46.44:642][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.21-21.46.44:642][158]PIE: New page: PIE session: RionAITestScene (Sep 21, 2019, 9:46:44 AM)
+[2019.09.21-21.46.44:642][158]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RionAITestScene
+[2019.09.21-21.46.44:647][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005486s)
+[2019.09.21-21.46.44:648][158]LogAIModule: Creating AISystem for world RionAITestScene
+[2019.09.21-21.46.44:648][158]LogPlayLevel: PIE: World Init took: (0.000894s)
+[2019.09.21-21.46.44:648][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RionAITestScene.RionAITestScene to /Game/Maps/UEDPIE_0_RionAITestScene.RionAITestScene (0.006524s)
+[2019.09.21-21.46.44:676][158]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2019.09.21-21.46.44:690][158]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.09.21-21.46.44:739][158]LogInit: FAudioDevice initialized.
+[2019.09.21-21.46.44:743][158]LogLoad: Game class is 'IS2019GameMode'
+[2019.09.21-21.46.44:746][158]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RionAITestScene.RionAITestScene up for play (max tick rate 60) at 2019.09.21-15.46.44
+[2019.09.21-21.46.44:747][158]LogWorld: Bringing up level for play took: 0.002567
+[2019.09.21-21.46.44:747][158]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2019.09.21-21.46.44:749][158]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_RionAITestScene -0.48
+[2019.09.21-21.46.44:749][158]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.46.54:945][769]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.46.54:945][769]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.21-21.46.54:945][769]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RionAITestScene
+[2019.09.21-21.46.54:946][769]LogWorld: UWorld::CleanupWorld for RionAITestScene, bSessionEnded=true, bCleanupResources=true
+[2019.09.21-21.46.54:955][769]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.21-21.46.54:955][769]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.46.54:988][769]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.21-21.46.54:993][769]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2019.09.21-21.46.55:048][772]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.09.21-21.46.56:331][849]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.21-21.47.09:425][634]BlueprintLog: New page: Compile BP_Vintage
+[2019.09.21-21.47.09:611][634]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2019.09.21-21.47.10:064][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Vintage" FILE="../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Blueprints/BP_Vintage.uasset" SILENT=true
+[2019.09.21-21.47.10:086][660]LogSavePackage: Moving '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/BP_VintageB25D09804104EEE59917D48E47C84107.tmp' to '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Blueprints/BP_Vintage.uasset'
+[2019.09.21-21.47.12:097][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RionAITestScene" FILE="../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Maps/RionAITestScene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.09.21-21.47.12:127][780]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2019.09.21-21.47.12:303][780]LogSavePackage: Moving '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/RionAITestScene8F8D26374EEC584404146CB366EAD3D7.tmp' to '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Maps/RionAITestScene.umap'
+[2019.09.21-21.47.12:944][817]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.21-21.47.12:957][817]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.47.12:957][817]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.21-21.47.12:957][817]PIE: New page: PIE session: RionAITestScene (Sep 21, 2019, 9:47:12 AM)
+[2019.09.21-21.47.12:957][817]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RionAITestScene
+[2019.09.21-21.47.12:962][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004831s)
+[2019.09.21-21.47.12:963][817]LogAIModule: Creating AISystem for world RionAITestScene
+[2019.09.21-21.47.12:963][817]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2019.09.21-21.47.12:963][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RionAITestScene.RionAITestScene to /Game/Maps/UEDPIE_0_RionAITestScene.RionAITestScene (0.006020s)
+[2019.09.21-21.47.12:992][817]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2019.09.21-21.47.13:004][817]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.09.21-21.47.13:054][817]LogInit: FAudioDevice initialized.
+[2019.09.21-21.47.13:064][817]LogLoad: Game class is 'IS2019GameMode'
+[2019.09.21-21.47.13:066][817]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RionAITestScene.RionAITestScene up for play (max tick rate 60) at 2019.09.21-15.47.13
+[2019.09.21-21.47.13:067][817]LogWorld: Bringing up level for play took: 0.001924
+[2019.09.21-21.47.13:067][817]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2019.09.21-21.47.13:069][817]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_RionAITestScene -0.159
+[2019.09.21-21.47.13:069][817]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.47.22:343][372]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.47.22:343][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.21-21.47.22:343][372]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RionAITestScene
+[2019.09.21-21.47.22:343][372]LogWorld: UWorld::CleanupWorld for RionAITestScene, bSessionEnded=true, bCleanupResources=true
+[2019.09.21-21.47.22:360][372]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.21-21.47.22:361][372]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.47.22:416][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.21-21.47.22:419][372]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2019.09.21-21.47.22:458][374]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.09.21-21.47.24:875][519]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.21-21.47.35:449][153]BlueprintLog: New page: Compile BP_Vintage
+[2019.09.21-21.47.35:637][153]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2019.09.21-21.47.35:982][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Vintage" FILE="../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Blueprints/BP_Vintage.uasset" SILENT=true
+[2019.09.21-21.47.36:003][172]LogSavePackage: Moving '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/BP_Vintage83A0B5DB4A914F26E5B5A7B4923C85C5.tmp' to '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Blueprints/BP_Vintage.uasset'
+[2019.09.21-21.47.38:951][349]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.21-21.47.38:964][349]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.47.38:964][349]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.21-21.47.38:964][349]PIE: New page: PIE session: RionAITestScene (Sep 21, 2019, 9:47:38 AM)
+[2019.09.21-21.47.38:964][349]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RionAITestScene
+[2019.09.21-21.47.38:971][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006668s)
+[2019.09.21-21.47.38:972][349]LogAIModule: Creating AISystem for world RionAITestScene
+[2019.09.21-21.47.38:972][349]LogPlayLevel: PIE: World Init took: (0.001105s)
+[2019.09.21-21.47.38:972][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RionAITestScene.RionAITestScene to /Game/Maps/UEDPIE_0_RionAITestScene.RionAITestScene (0.007922s)
+[2019.09.21-21.47.39:003][349]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2019.09.21-21.47.39:018][349]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.09.21-21.47.39:067][349]LogInit: FAudioDevice initialized.
+[2019.09.21-21.47.39:071][349]LogLoad: Game class is 'IS2019GameMode'
+[2019.09.21-21.47.39:073][349]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RionAITestScene.RionAITestScene up for play (max tick rate 60) at 2019.09.21-15.47.39
+[2019.09.21-21.47.39:074][349]LogWorld: Bringing up level for play took: 0.002029
+[2019.09.21-21.47.39:074][349]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2019.09.21-21.47.39:076][349]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_RionAITestScene -0.152
+[2019.09.21-21.47.39:076][349]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.47.51:719][107]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.47.51:719][107]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.21-21.47.51:719][107]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RionAITestScene
+[2019.09.21-21.47.51:719][107]LogWorld: UWorld::CleanupWorld for RionAITestScene, bSessionEnded=true, bCleanupResources=true
+[2019.09.21-21.47.51:728][107]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.21-21.47.51:729][107]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.47.51:765][107]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.21-21.47.51:769][107]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2019.09.21-21.47.51:834][111]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.09.21-21.47.54:151][250]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.21-21.48.02:156][730]BlueprintLog: New page: Compile BP_Vintage
+[2019.09.21-21.48.02:352][730]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2019.09.21-21.48.02:924][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Vintage" FILE="../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Blueprints/BP_Vintage.uasset" SILENT=true
+[2019.09.21-21.48.02:945][763]LogSavePackage: Moving '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/BP_Vintage8990E8024A9222AC5C4F84B20C1C6488.tmp' to '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Blueprints/BP_Vintage.uasset'
+[2019.09.21-21.48.05:178][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RionAITestScene" FILE="../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Maps/RionAITestScene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.09.21-21.48.05:208][896]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2019.09.21-21.48.05:382][896]LogSavePackage: Moving '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/RionAITestScene5E30AC27413DD5E7FED42FB09C75859D.tmp' to '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Maps/RionAITestScene.umap'
+[2019.09.21-21.48.06:579][966]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.21-21.48.06:592][966]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.48.06:592][966]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.21-21.48.06:592][966]PIE: New page: PIE session: RionAITestScene (Sep 21, 2019, 9:48:06 AM)
+[2019.09.21-21.48.06:592][966]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RionAITestScene
+[2019.09.21-21.48.06:597][966]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004922s)
+[2019.09.21-21.48.06:598][966]LogAIModule: Creating AISystem for world RionAITestScene
+[2019.09.21-21.48.06:598][966]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2019.09.21-21.48.06:598][966]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RionAITestScene.RionAITestScene to /Game/Maps/UEDPIE_0_RionAITestScene.RionAITestScene (0.005869s)
+[2019.09.21-21.48.06:624][966]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2019.09.21-21.48.06:636][966]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.09.21-21.48.06:682][966]LogInit: FAudioDevice initialized.
+[2019.09.21-21.48.06:691][966]LogLoad: Game class is 'IS2019GameMode'
+[2019.09.21-21.48.06:693][966]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RionAITestScene.RionAITestScene up for play (max tick rate 60) at 2019.09.21-15.48.06
+[2019.09.21-21.48.06:693][966]LogWorld: Bringing up level for play took: 0.002092
+[2019.09.21-21.48.06:694][966]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2019.09.21-21.48.06:696][966]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_RionAITestScene -0.533
+[2019.09.21-21.48.06:696][966]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.48.15:788][511]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.48.15:789][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.21-21.48.15:789][511]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RionAITestScene
+[2019.09.21-21.48.15:789][511]LogWorld: UWorld::CleanupWorld for RionAITestScene, bSessionEnded=true, bCleanupResources=true
+[2019.09.21-21.48.15:806][511]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.21-21.48.15:807][511]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.48.15:865][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.21-21.48.15:869][511]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2019.09.21-21.48.15:908][513]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.09.21-21.48.32:415][236]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.21-21.48.38:537][601]LogAssetEditorManager: Opening Asset editor for Class /Script/IS2019.Vintage
+[2019.09.21-21.48.38:563][601]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.09.21-21.48.38:571][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:572][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:572][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:572][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:572][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:572][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:572][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:572][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:572][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:572][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:572][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:572][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:572][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:572][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:573][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:573][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:573][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:573][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:573][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:573][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:573][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:573][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:573][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:573][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:573][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:573][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:574][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:574][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:574][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:574][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:574][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:574][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:574][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:574][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:575][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:575][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:575][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:575][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:575][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:575][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:575][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:575][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:575][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:575][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:575][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:576][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:576][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:576][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:576][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:576][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:576][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:576][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:576][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:576][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:576][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:577][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:577][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:577][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:577][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:577][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:577][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:577][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:577][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:577][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:578][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:578][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:578][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:578][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:578][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:578][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:578][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:578][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:578][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:579][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:579][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:579][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:579][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:579][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:579][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:579][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:579][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:579][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:580][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:580][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:580][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:580][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:580][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:580][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:580][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:580][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:580][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:580][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:581][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:581][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:581][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:581][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:581][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:581][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:581][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:581][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:581][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:581][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:582][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:582][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:582][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:582][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:582][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:582][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:582][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:582][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:582][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:583][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:583][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:583][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:583][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:583][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:583][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:583][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:583][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:583][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:583][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:584][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:584][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:589][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:591][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:591][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:591][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:591][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:591][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:621][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:624][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:626][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:626][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:705][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:705][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:705][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:705][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:781][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:794][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:798][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:798][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:800][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:800][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:800][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:800][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:800][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:800][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:800][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:800][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:800][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:801][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:801][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:801][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:801][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:801][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:801][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:801][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:801][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:801][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:801][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:801][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:801][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:801][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:801][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:802][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:802][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:802][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:802][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:802][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:802][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:802][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:802][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:802][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:802][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:802][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:802][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:802][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:803][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:803][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:803][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:803][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:803][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:803][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:803][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:803][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:803][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:803][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:803][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:803][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:803][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:803][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:803][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:804][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:804][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:804][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:804][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:804][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:804][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:804][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:804][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:804][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:804][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:804][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:804][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:804][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:804][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:805][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:805][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:805][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:805][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:805][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:805][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:805][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:805][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:805][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:805][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:805][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:805][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:805][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:805][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:806][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:806][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:806][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:806][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:806][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:806][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:806][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:806][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:806][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:806][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:806][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:806][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:806][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:806][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:807][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:807][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:807][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:807][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:807][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:807][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:807][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:807][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:807][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:807][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:807][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:807][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:807][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:808][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:808][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:808][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:808][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:808][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:808][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:808][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:808][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:808][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:808][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:808][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:808][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:808][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:808][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:809][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:809][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:809][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:812][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:813][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:814][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:814][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:814][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:814][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:839][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:842][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:842][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:842][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:909][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:909][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:909][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:909][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:970][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:980][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:985][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.38:985][601]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:400][789]LogAssetEditorManager: Opening Asset editor for Class /Script/IS2019.Vintage
+[2019.09.21-21.48.50:427][789]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.09.21-21.48.50:435][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:435][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:435][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:435][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:435][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:435][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:435][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:435][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:435][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:436][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:436][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:436][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:436][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:436][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:436][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:436][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:436][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:436][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:437][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:437][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:437][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:437][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:437][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:437][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:437][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:437][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:437][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:438][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:438][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:438][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:438][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:438][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:438][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:438][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:438][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:438][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:439][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:439][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:439][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:439][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:439][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:439][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:439][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:439][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:439][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:440][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:440][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:440][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:440][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:440][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:440][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:440][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:440][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:440][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:441][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:441][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:441][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:441][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:441][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:441][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:441][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:441][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:441][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:442][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:442][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:442][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:442][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:442][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:442][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:442][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:442][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:442][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:443][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:443][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:443][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:443][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:443][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:443][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:443][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:443][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:443][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:443][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:444][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:444][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:444][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:444][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:444][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:444][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:444][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:444][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:444][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:444][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:445][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:445][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:445][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:445][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:445][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:445][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:445][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:445][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:445][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:446][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:446][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:446][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:446][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:446][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:446][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:446][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:446][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:446][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:446][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:447][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:447][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:447][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:447][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:447][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:447][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:447][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:447][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:447][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:447][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:447][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:447][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:452][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:453][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:453][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:453][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:453][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:454][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:475][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:478][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:479][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:479][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:539][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:540][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:540][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:540][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:590][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:599][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:605][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:605][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:605][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:605][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:607][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:607][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:607][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:607][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:607][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:607][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:607][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:607][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:608][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:608][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:608][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:608][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:608][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:608][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:608][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:608][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:608][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:608][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:608][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:608][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:608][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:608][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:609][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:609][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:609][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:609][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:609][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:609][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:609][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:609][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:609][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:609][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:609][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:609][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:609][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:609][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:610][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:610][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:610][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:610][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:610][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:610][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:610][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:610][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:610][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:610][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:610][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:610][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:610][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:610][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:610][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:611][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:611][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:611][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:611][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:611][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:611][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:611][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:611][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:611][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:611][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:611][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:611][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:611][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:611][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:611][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:612][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:612][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:612][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:612][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:612][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:612][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:612][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:612][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:612][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:612][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:612][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:612][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:612][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:612][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:613][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:613][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:613][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:613][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:613][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:613][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:613][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:613][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:613][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:613][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:613][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:613][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:613][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:613][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:613][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:614][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:614][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:614][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:614][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:614][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:614][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:614][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:614][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:614][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:614][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:614][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:614][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:614][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:614][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:614][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:615][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:615][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:615][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:615][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:615][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:615][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:615][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:615][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:615][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:615][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:615][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:615][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:615][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:619][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:620][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:621][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:621][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:621][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:621][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:640][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:644][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:645][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:645][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:712][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:712][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:712][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:713][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:774][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:782][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:788][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:788][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:788][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.48.50:788][789]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.17:303][747]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2019.09.21-21.49.23:389][747]LogSlate: Window 'Delete Assets' being destroyed
+[2019.09.21-21.49.23:404][747]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2019.09.21-21.49.23:437][747]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/BP_Vintage.BP_Vintage
+[2019.09.21-21.49.24:077][747]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2019.09.21-21.49.24:254][747]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2019.09.21-21.49.24:274][747]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2019.09.21-21.49.24:298][747]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2019.09.21-21.49.31:325][167]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.21-21.49.37:836][557]LogAssetEditorManager: Opening Asset editor for Class /Script/IS2019.Vintage
+[2019.09.21-21.49.37:862][557]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.09.21-21.49.37:869][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:869][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:869][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:870][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:870][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:870][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:870][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:870][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:870][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:870][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:870][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:870][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:870][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:871][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:871][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:871][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:871][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:871][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:871][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:871][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:871][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:871][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:871][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:871][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:871][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:871][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:872][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:872][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:872][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:872][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:872][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:872][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:872][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:872][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:873][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:873][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:873][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:873][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:873][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:873][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:873][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:873][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:874][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:874][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:874][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:874][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:874][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:874][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:874][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:874][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:874][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:875][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:875][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:875][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:875][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:875][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:875][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:875][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:875][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:875][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:875][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:876][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:876][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:876][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:876][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:876][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:876][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:876][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:876][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:876][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:877][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:877][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:877][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:877][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:877][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:877][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:877][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:877][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:877][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:878][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:878][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:878][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:878][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:878][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:878][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:878][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:878][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:878][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:879][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:879][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:879][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:879][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:879][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:879][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:879][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:879][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:879][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:880][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:880][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:880][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:880][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:880][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:880][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:880][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:880][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:881][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:881][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:881][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:881][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:881][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:881][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:881][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:881][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:881][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:882][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:882][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:882][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:882][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:882][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:882][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:882][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:882][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:883][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:887][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:889][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:890][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:890][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:890][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:890][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:913][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:916][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:917][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:917][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:984][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:985][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:985][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.37:985][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:045][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:053][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:060][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:062][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:062][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:062][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:062][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:062][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:062][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:062][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:062][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:063][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:063][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:063][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:063][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:063][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:063][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:063][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:063][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:063][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:063][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:063][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:063][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:063][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:063][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:064][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:064][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:064][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:064][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:064][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:064][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:064][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:064][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:064][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:064][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:064][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:064][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:064][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:064][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:065][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:065][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:065][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:065][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:065][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:065][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:065][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:065][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:065][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:065][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:065][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:065][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:065][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:065][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:066][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:066][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:066][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:066][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:066][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:066][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:066][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:066][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:066][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:066][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:066][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:066][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:066][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:066][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:066][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:067][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:067][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:067][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:067][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:067][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:067][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:067][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:067][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:067][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:067][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:067][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:067][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:068][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:068][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:068][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:068][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:068][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:068][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:068][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:068][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:068][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:068][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:068][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:068][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:068][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:068][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:068][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:069][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:069][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:069][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:069][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:069][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:069][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:069][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:069][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:069][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:069][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:069][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:069][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:069][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:069][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:070][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:070][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:070][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:070][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:070][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:070][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:070][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:070][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:070][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:070][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:070][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:070][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:070][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:070][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:071][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:071][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:071][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:075][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:076][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:076][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:076][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:076][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:076][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:095][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:099][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:100][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:100][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:165][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:165][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:165][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:166][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:229][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:237][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.38:246][557]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.21-21.49.58:815][672]Candidate modules for hot reload:
+[2019.09.21-21.49.58:815][672]  IS2019
+[2019.09.21-21.49.58:815][672]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=IS2019,1809 Win64 Development -TargetType=Editor -Project="C:/Users/Rion Cole/Desktop/IS-2019/IS2019/IS2019.uproject" "C:/Users/Rion Cole/Desktop/IS-2019/IS2019/IS2019.uproject"  -IgnoreJunk]
+[2019.09.21-21.50.16:152][672]CompilerResultsLog: New page: Compilation - Sep 21, 2019, 9:50:16 AM
+[2019.09.21-21.50.16:152][672]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Rion Cole\Desktop\IS-2019).
+[2019.09.21-21.50.16:152][672]CompilerResultsLog: Creating makefile for IS2019Editor (.uproject file is newer)
+[2019.09.21-21.50.16:152][672]CompilerResultsLog: Parsing headers for IS2019Editor
+[2019.09.21-21.50.16:152][672]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Rion Cole\Desktop\IS-2019\IS2019\IS2019.uproject" "C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\IS2019Editor\Development\IS2019Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.21-21.50.16:152][672]CompilerResultsLog: Reflection code generated for IS2019Editor in 5.3421692 seconds
+[2019.09.21-21.50.16:152][672]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.21-21.50.16:152][672]CompilerResultsLog: Building 15 actions with 8 processes...
+[2019.09.21-21.50.16:152][672]CompilerResultsLog:   [1/15] IS2019.init.gen.cpp
+[2019.09.21-21.50.16:152][672]CompilerResultsLog:   [2/15] IS2019GameMode.gen.cpp
+[2019.09.21-21.50.16:152][672]CompilerResultsLog:   [3/15] IS2019GameMode.cpp
+[2019.09.21-21.50.16:152][672]CompilerResultsLog:   [4/15] IS2019Character.gen.cpp
+[2019.09.21-21.50.16:152][672]CompilerResultsLog:   [5/15] IS2019Projectile.gen.cpp
+[2019.09.21-21.50.16:152][672]CompilerResultsLog:   [6/15] IS2019HUD.gen.cpp
+[2019.09.21-21.50.16:152][672]CompilerResultsLog:   [7/15] EnemyAgent1.gen.cpp
+[2019.09.21-21.50.16:152][672]CompilerResultsLog:   [8/15] IS2019HUD.cpp
+[2019.09.21-21.50.16:152][672]CompilerResultsLog:   [9/15] IS2019.cpp
+[2019.09.21-21.50.16:152][672]CompilerResultsLog:   [10/15] EnemyAgent1.cpp
+[2019.09.21-21.50.16:152][672]CompilerResultsLog:   [11/15] IS2019Projectile.cpp
+[2019.09.21-21.50.16:152][672]CompilerResultsLog:   [12/15] IS2019Character.cpp
+[2019.09.21-21.50.16:152][672]CompilerResultsLog:   [13/15] UE4Editor-IS2019-1809.lib
+[2019.09.21-21.50.16:152][672]CompilerResultsLog:      Creating library C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\UE4Editor-IS2019-1809.lib and object C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\UE4Editor-IS2019-1809.exp
+[2019.09.21-21.50.16:152][672]CompilerResultsLog:   [14/15] UE4Editor-IS2019-1809.dll
+[2019.09.21-21.50.16:152][672]CompilerResultsLog:      Creating library C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\UE4Editor-IS2019-1809.suppressed.lib and object C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\UE4Editor-IS2019-1809.suppressed.exp
+[2019.09.21-21.50.16:152][672]CompilerResultsLog:   [15/15] IS2019Editor.target
+[2019.09.21-21.50.16:152][672]CompilerResultsLog: Total time in Parallel executor: 9.92 seconds
+[2019.09.21-21.50.16:153][672]CompilerResultsLog: Total execution time: 17.22 seconds
+[2019.09.21-21.50.16:153][672]LogMainFrame: MainFrame: Module compiling took 17.340 seconds
+[2019.09.21-21.50.16:172][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2019.09.21-21.50.16:185][672]LogClass: Could not find existing class EnemyAgent1 in package /Script/IS2019 for HotReload, assuming new class
+[2019.09.21-21.50.16:199][672]LogContentBrowser: Native class hierarchy updated for 'IS2019' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2019.09.21-21.50.16:202][672]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.21-21.50.16:269][672]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2019.09.21-21.50.16:284][672]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2870 classes and 684 folders.
+[2019.09.21-21.50.16:284][672]Display: HotReload took 17.5s.
+[2019.09.21-21.50.16:286][672]Warning: HotReload operation took 17.5s.
+[2019.09.21-21.50.18:742][672]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.09.21-21.50.19:118][672]LogHotReload: New module detected: UE4Editor-IS2019-1809.dll
+[2019.09.21-21.50.19:171][673]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.21-21.50.19:265][673]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2019.09.21-21.50.19:273][673]LogContentBrowser: Native class hierarchy updated for 'IS2019' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2019.09.21-21.50.19:278][673]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.09.21-21.50.19:321][673]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2019.09.21-21.50.19:340][673]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2870 classes and 684 folders.
+[2019.09.21-21.50.19:342][673]Display: HotReload took  0.2s.
+[2019.09.21-21.52.49:973][123]LogHotReload: New module detected: UE4Editor-IS2019-0005.dll
+[2019.09.21-21.52.50:655][126]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.21-21.52.50:731][126]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2019.09.21-21.52.50:745][126]LogClass: Could not find existing class EnemyAgent1 in package /Script/IS2019 for HotReload, assuming new class
+[2019.09.21-21.52.50:758][126]LogHotReload: Re-instancing EnemyAgent1 after hot-reload.
+[2019.09.21-21.52.50:859][126]LogContentBrowser: Native class hierarchy updated for 'IS2019' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2019.09.21-21.52.50:862][126]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.21-21.52.50:913][126]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2019.09.21-21.52.50:927][126]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2870 classes and 684 folders.
+[2019.09.21-21.52.50:929][126]Display: HotReload took  0.3s.
+[2019.09.21-21.53.36:906][333]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_EnemyAgent1.BP_EnemyAgent1
+[2019.09.21-21.53.37:243][333]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2019.09.21-21.54.13:267][334]LogMaterial: Display: Material /Game/StarterContent/Materials/M_Wood_Walnut.M_Wood_Walnut needed to have new flag set bUsedWithSkeletalMesh !
+[2019.09.21-21.54.13:270][334]LogMaterial: Display: Missing cached shader map for material M_Wood_Walnut, compiling. 
+[2019.09.21-21.54.13:329][335]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 69
+[2019.09.21-21.54.13:329][335]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 59
+[2019.09.21-21.54.13:329][335]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 49
+[2019.09.21-21.54.13:329][335]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 39
+[2019.09.21-21.54.17:260][506]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 29
+[2019.09.21-21.54.17:279][507]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 21
+[2019.09.21-21.54.18:988][592]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 15
+[2019.09.21-21.54.19:476][609]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 11
+[2019.09.21-21.54.19:666][616]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2019.09.21-21.54.20:062][629]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.21-21.54.20:077][629]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.09.21-21.54.20:489][642]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2019.09.21-21.54.20:694][649]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2019.09.21-21.54.20:957][659]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2019.09.21-21.54.21:063][663]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2019.09.21-21.54.27:773][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.21-21.54.42:503][943]BlueprintLog: New page: Compile BP_EnemyAgent1
+[2019.09.21-21.54.42:698][943]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2019.09.21-21.54.43:152][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemyAgent1" FILE="../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Blueprints/BP_EnemyAgent1.uasset" SILENT=true
+[2019.09.21-21.54.43:170][968]LogSavePackage: Moving '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/BP_EnemyAgent1BF35046142BAFD2D623B26B02AA45BDB.tmp' to '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Blueprints/BP_EnemyAgent1.uasset'
+[2019.09.21-21.55.39:561][290]BlueprintLog: New page: Compile BP_EnemyAgent1
+[2019.09.21-21.55.39:715][290]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2019.09.21-21.55.40:142][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemyAgent1" FILE="../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Blueprints/BP_EnemyAgent1.uasset" SILENT=true
+[2019.09.21-21.55.40:167][314]LogSavePackage: Moving '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/BP_EnemyAgent10BC2E35F4D2BB245DC0EEEAF5EDF5AFA.tmp' to '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Blueprints/BP_EnemyAgent1.uasset'
+[2019.09.21-21.55.47:044][727]LogHttp: Warning: 000002AD1BB78180: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4BF9C223-4014-64E9-9F67-6F8855FE8A3C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=e21aca4741a0c492adf396b35ac07248%7Cf521cf8c67e04567b2af40f8edf327fe%7C4a81b2cd-1032-4f99-aade-da3ab374ab69&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.09.21-21.55.47:044][727]LogHttp: Warning: 000002AD1BB78180: request failed, libcurl error: 0 (No error)
+[2019.09.21-21.55.47:044][727]LogHttp: Warning: 000002AD1BB78180: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2ad2cceff70 [can pipeline])
+[2019.09.21-21.55.47:044][727]LogHttp: Warning: 000002AD1BB78180: libcurl info message cache 1 (Re-using existing connection! (#12) with host datarouter.ol.epicgames.com)
+[2019.09.21-21.55.47:044][727]LogHttp: Warning: 000002AD1BB78180: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.204.212.142) port 443 (#12))
+[2019.09.21-21.55.47:044][727]LogHttp: Warning: 000002AD1BB78180: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.09.21-21.55.47:044][727]LogHttp: Warning: 000002AD1BB78180: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.09.21-21.55.47:044][727]LogHttp: Warning: 000002AD1BB78180: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.09.21-21.55.47:044][727]LogHttp: Warning: 000002AD1BB78180: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.09.21-21.55.47:044][727]LogHttp: Warning: 000002AD1BB78180: libcurl info message cache 7 (Closing connection 12)
+[2019.09.21-21.55.47:044][727]LogHttp: Warning: 000002AD1BB78180: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.09.21-21.55.47:060][728]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4BF9C223-4014-64E9-9F67-6F8855FE8A3C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=e21aca4741a0c492adf396b35ac07248%7Cf521cf8c67e04567b2af40f8edf327fe%7C4a81b2cd-1032-4f99-aade-da3ab374ab69&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.21-21.55.59:447][468]BlueprintLog: New page: Compile BP_EnemyAgent1
+[2019.09.21-21.55.59:640][468]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2019.09.21-21.55.59:919][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemyAgent1" FILE="../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Blueprints/BP_EnemyAgent1.uasset" SILENT=true
+[2019.09.21-21.55.59:945][483]LogSavePackage: Moving '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/BP_EnemyAgent17B8678A9402A7EB92AB0FB99946C822B.tmp' to '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Blueprints/BP_EnemyAgent1.uasset'
+[2019.09.21-21.56.03:561][697]LogSlate: Window 'BP_EnemyAgent1' being destroyed
+[2019.09.21-21.56.06:390][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RionAITestScene" FILE="../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Maps/RionAITestScene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.09.21-21.56.06:425][866]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2019.09.21-21.56.06:602][866]LogSavePackage: Moving '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/RionAITestSceneF6735C704903A3A91270AE94FC051D09.tmp' to '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Maps/RionAITestScene.umap'
+[2019.09.21-21.56.11:672][168]LogAssetEditorManager: Opening Asset editor for Class /Script/IS2019.EnemyAgent1
+[2019.09.21-21.56.23:009][675]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.21-21.56.23:109][681]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.21-21.56.23:123][681]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.56.23:123][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.21-21.56.23:123][681]PIE: New page: PIE session: RionAITestScene (Sep 21, 2019, 9:56:23 AM)
+[2019.09.21-21.56.23:123][681]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RionAITestScene
+[2019.09.21-21.56.23:129][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005054s)
+[2019.09.21-21.56.23:129][681]LogAIModule: Creating AISystem for world RionAITestScene
+[2019.09.21-21.56.23:129][681]LogPlayLevel: PIE: World Init took: (0.000870s)
+[2019.09.21-21.56.23:130][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RionAITestScene.RionAITestScene to /Game/Maps/UEDPIE_0_RionAITestScene.RionAITestScene (0.006063s)
+[2019.09.21-21.56.23:156][681]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2019.09.21-21.56.23:168][681]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.09.21-21.56.23:214][681]LogInit: FAudioDevice initialized.
+[2019.09.21-21.56.23:219][681]LogLoad: Game class is 'IS2019GameMode'
+[2019.09.21-21.56.23:221][681]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RionAITestScene.RionAITestScene up for play (max tick rate 60) at 2019.09.21-15.56.23
+[2019.09.21-21.56.23:221][681]LogWorld: Bringing up level for play took: 0.002113
+[2019.09.21-21.56.23:222][681]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2019.09.21-21.56.23:224][681]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_RionAITestScene -0.004
+[2019.09.21-21.56.23:224][681]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.56.35:816][436]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.56.35:816][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.21-21.56.35:816][436]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RionAITestScene
+[2019.09.21-21.56.35:817][436]LogWorld: UWorld::CleanupWorld for RionAITestScene, bSessionEnded=true, bCleanupResources=true
+[2019.09.21-21.56.35:824][436]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.21-21.56.35:825][436]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-21.56.35:857][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.21-21.56.35:860][436]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2019.09.21-21.56.35:928][440]LogPlayLevel: Display: Destroying online subsystem :Context_16

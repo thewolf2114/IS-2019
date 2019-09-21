@@ -66,4 +66,14 @@
       <Filter>Source\IS2019</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\IS2019\EnemyAgent1.h">
+      <Filter>Source\IS2019</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\IS2019\EnemyAgent1.cpp">
+      <Filter>Source\IS2019</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
