@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\IS2019.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5D5C121A-11F7-4E7B-88DA-073341F7D153}</UniqueIdentifier>
+      <UniqueIdentifier>{DA33126F-974B-4CF3-A852-183A4D923810}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\IS2019.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{6F15194A-3095-4D4C-ABE5-F3B0C63BDD26}</UniqueIdentifier>
+      <UniqueIdentifier>{E72E21A0-62CC-43E8-BC5F-2D09745DEBB0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,14 +30,8 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\IS2019">
-      <UniqueIdentifier>{A4D43F55-CDF3-4ECF-8DA6-686D446B2FF8}</UniqueIdentifier>
+      <UniqueIdentifier>{47B791BC-B6E5-4AAB-AEBD-DAF6B602771E}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\IS2019\EnemyAgent1.cpp">
-      <Filter>Source\IS2019</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\IS2019\EnemyAgent1.h">
-      <Filter>Source\IS2019</Filter>
-    </ClInclude>
     <None Include="..\..\Source\IS2019\IS2019.Build.cs">
       <Filter>Source\IS2019</Filter>
     </None>

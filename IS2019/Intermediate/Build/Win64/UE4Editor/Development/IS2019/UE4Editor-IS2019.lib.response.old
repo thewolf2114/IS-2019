@@ -17,6 +17,5 @@
 "C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\IS2019GameMode.gen.cpp.obj"
 "C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\IS2019HUD.gen.cpp.obj"
 "C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\IS2019Projectile.gen.cpp.obj"
-"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\Default.rc2.res"
+"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\PCLaunch.rc.res"
 /OUT:"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\UE4Editor-IS2019.lib"
-/INCLUDE:IMPLEMENT_MODULE_IS2019
