@@ -20,15 +20,27 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	bool IsAttacking();
+
+	virtual void OnAttackStateEnter();
+	virtual void OnAttackStateUpdate();
+	virtual void OnAttackStateExit();
+
+	virtual void OnDeadStateEnter();
+	virtual void OnDeadStateUpdate();
+	virtual void OnDeadStateExit();
+
+	virtual void ChangeState();
+
 	float m_health;
 	float m_speed;
 	float m_aggression;
+	bool m_isAttacking;
+
+	UCharacterMovementComponent* m_characterMovement;
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
-	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 };

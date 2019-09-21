@@ -1904,3 +1904,719 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.09.21-21.56.35:857][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.09.21-21.56.35:860][436]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
 [2019.09.21-21.56.35:928][440]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.09.21-21.57.16:689][736]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.09.21-21.57.22:072][ 50]LogAssetEditorManager: Opening Asset editor for Class /Script/IS2019.EnemyAgent1
+[2019.09.21-22.05.38:074][340]LogHttp: Warning: 000002AD76A402C0: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4BF9C223-4014-64E9-9F67-6F8855FE8A3C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=e21aca4741a0c492adf396b35ac07248%7Cf521cf8c67e04567b2af40f8edf327fe%7C4a81b2cd-1032-4f99-aade-da3ab374ab69&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.09.21-22.05.38:074][340]LogHttp: Warning: 000002AD76A402C0: request failed, libcurl error: 0 (No error)
+[2019.09.21-22.05.38:074][340]LogHttp: Warning: 000002AD76A402C0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2ad2cceff70 [can pipeline])
+[2019.09.21-22.05.38:074][340]LogHttp: Warning: 000002AD76A402C0: libcurl info message cache 1 (Re-using existing connection! (#16) with host datarouter.ol.epicgames.com)
+[2019.09.21-22.05.38:074][340]LogHttp: Warning: 000002AD76A402C0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (107.21.2.137) port 443 (#16))
+[2019.09.21-22.05.38:074][340]LogHttp: Warning: 000002AD76A402C0: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.09.21-22.05.38:074][340]LogHttp: Warning: 000002AD76A402C0: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.09.21-22.05.38:075][340]LogHttp: Warning: 000002AD76A402C0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.09.21-22.05.38:075][340]LogHttp: Warning: 000002AD76A402C0: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.09.21-22.05.38:075][340]LogHttp: Warning: 000002AD76A402C0: libcurl info message cache 7 (Closing connection 16)
+[2019.09.21-22.05.38:075][340]LogHttp: Warning: 000002AD76A402C0: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.09.21-22.05.38:075][340]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4BF9C223-4014-64E9-9F67-6F8855FE8A3C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=e21aca4741a0c492adf396b35ac07248%7Cf521cf8c67e04567b2af40f8edf327fe%7C4a81b2cd-1032-4f99-aade-da3ab374ab69&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.21-22.06.12:361][441]LogHotReload: New module detected: UE4Editor-IS2019-0008.dll
+[2019.09.21-22.06.13:378][445]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.21-22.06.13:437][445]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2019.09.21-22.06.13:474][445]LogContentBrowser: Native class hierarchy updated for 'IS2019' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2019.09.21-22.06.13:477][445]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.21-22.06.13:544][445]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2019.09.21-22.06.13:558][445]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2870 classes and 684 folders.
+[2019.09.21-22.06.13:561][445]Display: HotReload took  0.2s.
+[2019.09.21-22.06.19:825][463]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2019.09.21-22.06.20:006][463]LogSavePackage: Moving '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/RionAITestScene_Auto1F02EF6C44BE3FD2F7FC244B3792622B4.tmp' to '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/Autosaves/Game/Maps/RionAITestScene_Auto1.umap'
+[2019.09.21-22.06.20:010][463]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/RionAITestScene' took 0.231
+[2019.09.21-22.06.20:010][463]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.231
+[2019.09.21-22.06.20:016][463]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_Wood_Walnut] ([1] browsable assets)...
+[2019.09.21-22.06.20:041][463]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_Wood_Walnut.M_Wood_Walnut]
+[2019.09.21-22.06.20:041][463]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Wood_Walnut]
+[2019.09.21-22.06.20:074][463]LogSavePackage: Moving '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/M_Wood_Walnut_Auto139675ED34EE2F0E0757AB6A63BB25747.tmp' to '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/Autosaves/Game/StarterContent/Materials/M_Wood_Walnut_Auto1.uasset'
+[2019.09.21-22.06.20:076][463]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/Tutorial/SubEditors/TutorialAssets/TutorialMaterial] ([1] browsable assets)...
+[2019.09.21-22.06.20:097][463]OBJ SavePackage:     Rendered thumbnail for [Material /Engine/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.TutorialMaterial]
+[2019.09.21-22.06.20:097][463]OBJ SavePackage: Finished generating thumbnails for package [/Engine/Tutorial/SubEditors/TutorialAssets/TutorialMaterial]
+[2019.09.21-22.06.20:119][463]LogSavePackage: Moving '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/TutorialMaterial_Auto15ED2A58F4EC576ECCED583B6027E14F0.tmp' to '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/Autosaves/Engine/Tutorial/SubEditors/TutorialAssets/TutorialMaterial_Auto1.uasset'
+[2019.09.21-22.06.20:120][463]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/Materials/M_Frame] ([1] browsable assets)...
+[2019.09.21-22.06.20:141][463]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Props/Materials/M_Frame.M_Frame]
+[2019.09.21-22.06.20:141][463]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/Materials/M_Frame]
+[2019.09.21-22.06.20:164][463]LogSavePackage: Moving '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/M_Frame_Auto199439EB54B45F96BAC120392241EE511.tmp' to '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/Autosaves/Game/StarterContent/Props/Materials/M_Frame_Auto1.uasset'
+[2019.09.21-22.06.20:165][463]LogFileHelpers: Auto-saving content packages took 0.150
+[2019.09.21-22.06.22:186][470]LogHotReload: New module detected: UE4Editor-IS2019-0009.dll
+[2019.09.21-22.06.22:868][473]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.21-22.06.22:924][473]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2019.09.21-22.06.22:955][473]LogContentBrowser: Native class hierarchy updated for 'IS2019' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2019.09.21-22.06.22:959][473]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.21-22.06.23:024][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2019.09.21-22.06.23:037][473]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2870 classes and 684 folders.
+[2019.09.21-22.06.23:040][473]Display: HotReload took  0.2s.
+[2019.09.21-22.06.53:036][562]LogHotReload: New module detected: UE4Editor-IS2019-0010.dll
+[2019.09.21-22.06.54:070][566]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.21-22.06.54:149][566]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2019.09.21-22.06.54:181][566]LogContentBrowser: Native class hierarchy updated for 'IS2019' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2019.09.21-22.06.54:185][566]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.21-22.06.54:251][566]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2019.09.21-22.06.54:264][566]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2870 classes and 684 folders.
+[2019.09.21-22.06.54:267][566]Display: HotReload took  0.2s.
+[2019.09.21-22.07.02:445][986]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.21-22.07.02:471][986]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-22.07.02:471][986]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.21-22.07.02:471][986]PIE: New page: PIE session: RionAITestScene (Sep 21, 2019, 10:07:02 AM)
+[2019.09.21-22.07.02:471][986]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RionAITestScene
+[2019.09.21-22.07.02:480][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008116s)
+[2019.09.21-22.07.02:481][986]LogAIModule: Creating AISystem for world RionAITestScene
+[2019.09.21-22.07.02:481][986]LogPlayLevel: PIE: World Init took: (0.001321s)
+[2019.09.21-22.07.02:481][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RionAITestScene.RionAITestScene to /Game/Maps/UEDPIE_0_RionAITestScene.RionAITestScene (0.009657s)
+[2019.09.21-22.07.02:539][986]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2019.09.21-22.07.02:556][986]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.09.21-22.07.02:605][986]LogInit: FAudioDevice initialized.
+[2019.09.21-22.07.02:612][986]LogLoad: Game class is 'IS2019GameMode'
+[2019.09.21-22.07.02:615][986]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RionAITestScene.RionAITestScene up for play (max tick rate 60) at 2019.09.21-16.07.02
+[2019.09.21-22.07.02:615][986]LogWorld: Bringing up level for play took: 0.001984
+[2019.09.21-22.07.02:615][986]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2019.09.21-22.07.02:617][986]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_RionAITestScene -0.611
+[2019.09.21-22.07.02:618][986]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-22.07.12:142][557]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-22.07.12:143][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.21-22.07.12:143][557]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RionAITestScene
+[2019.09.21-22.07.12:143][557]LogWorld: UWorld::CleanupWorld for RionAITestScene, bSessionEnded=true, bCleanupResources=true
+[2019.09.21-22.07.12:149][557]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.21-22.07.12:149][557]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-22.07.12:182][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.21-22.07.12:186][557]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2019.09.21-22.07.12:243][560]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.09.21-22.07.25:088][663]LogHotReload: New module detected: UE4Editor-IS2019-0011.dll
+[2019.09.21-22.07.26:103][667]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.21-22.07.26:138][667]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2019.09.21-22.07.26:170][667]LogContentBrowser: Native class hierarchy updated for 'IS2019' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2019.09.21-22.07.26:174][667]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.21-22.07.26:248][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2019.09.21-22.07.26:262][667]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2870 classes and 684 folders.
+[2019.09.21-22.07.26:264][667]Display: HotReload took  0.2s.
+[2019.09.21-22.07.32:061][684]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.09.21-22.07.33:802][786]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.21-22.07.33:815][786]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-22.07.33:815][786]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.21-22.07.33:815][786]PIE: New page: PIE session: RionAITestScene (Sep 21, 2019, 10:07:33 AM)
+[2019.09.21-22.07.33:816][786]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RionAITestScene
+[2019.09.21-22.07.33:825][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009509s)
+[2019.09.21-22.07.33:826][786]LogAIModule: Creating AISystem for world RionAITestScene
+[2019.09.21-22.07.33:826][786]LogPlayLevel: PIE: World Init took: (0.001293s)
+[2019.09.21-22.07.33:827][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RionAITestScene.RionAITestScene to /Game/Maps/UEDPIE_0_RionAITestScene.RionAITestScene (0.010953s)
+[2019.09.21-22.07.33:882][786]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2019.09.21-22.07.33:900][786]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.09.21-22.07.33:952][786]LogInit: FAudioDevice initialized.
+[2019.09.21-22.07.33:956][786]LogLoad: Game class is 'IS2019GameMode'
+[2019.09.21-22.07.33:958][786]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RionAITestScene.RionAITestScene up for play (max tick rate 60) at 2019.09.21-16.07.33
+[2019.09.21-22.07.33:959][786]LogWorld: Bringing up level for play took: 0.002019
+[2019.09.21-22.07.33:959][786]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2019.09.21-22.07.33:961][786]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_RionAITestScene 0.733
+[2019.09.21-22.07.33:961][786]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-22.07.43:090][333]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-22.07.43:090][333]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.21-22.07.43:090][333]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RionAITestScene
+[2019.09.21-22.07.43:090][333]LogWorld: UWorld::CleanupWorld for RionAITestScene, bSessionEnded=true, bCleanupResources=true
+[2019.09.21-22.07.43:101][333]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.21-22.07.43:101][333]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-22.07.43:135][333]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.21-22.07.43:152][333]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2019.09.21-22.07.43:199][335]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.09.21-22.07.55:286][469]LogHotReload: New module detected: UE4Editor-IS2019-0012.dll
+[2019.09.21-22.07.56:309][473]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.21-22.07.56:345][473]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2019.09.21-22.07.56:379][473]LogContentBrowser: Native class hierarchy updated for 'IS2019' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2019.09.21-22.07.56:383][473]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.21-22.07.56:460][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2019.09.21-22.07.56:474][473]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2870 classes and 684 folders.
+[2019.09.21-22.07.56:476][473]Display: HotReload took  0.2s.
+[2019.09.21-22.08.10:675][515]LogHotReload: New module detected: UE4Editor-IS2019-0013.dll
+[2019.09.21-22.08.23:068][552]LogHotReload: New module detected: UE4Editor-IS2019-0014.dll
+[2019.09.21-22.09.20:061][722]LogHotReload: New module detected: UE4Editor-IS2019-0015.dll
+[2019.09.21-22.09.21:083][726]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.21-22.09.21:151][726]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2019.09.21-22.09.21:190][726]LogContentBrowser: Native class hierarchy updated for 'IS2019' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2019.09.21-22.09.21:194][726]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.21-22.09.21:279][726]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2019.09.21-22.09.21:292][726]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2870 classes and 684 folders.
+[2019.09.21-22.09.21:294][726]Display: HotReload took  0.2s.
+[2019.09.21-22.09.48:156][806]LogHotReload: New module detected: UE4Editor-IS2019-0016.dll
+[2019.09.21-22.09.49:174][810]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.21-22.09.49:236][810]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2019.09.21-22.09.49:270][810]LogContentBrowser: Native class hierarchy updated for 'IS2019' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2019.09.21-22.09.49:274][810]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.21-22.09.49:346][810]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2019.09.21-22.09.49:359][810]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2870 classes and 684 folders.
+[2019.09.21-22.09.49:362][810]Display: HotReload took  0.2s.
+[2019.09.21-22.11.24:572][ 94]LogHotReload: New module detected: UE4Editor-IS2019-0018.dll
+[2019.09.21-22.11.25:265][ 97]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.21-22.11.25:336][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2019.09.21-22.11.25:370][ 97]LogContentBrowser: Native class hierarchy updated for 'IS2019' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2019.09.21-22.11.25:374][ 97]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.21-22.11.25:446][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2019.09.21-22.11.25:459][ 97]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2870 classes and 684 folders.
+[2019.09.21-22.11.25:461][ 97]Display: HotReload took  0.2s.
+[2019.09.21-22.12.10:750][232]LogHotReload: New module detected: UE4Editor-IS2019-0019.dll
+[2019.09.21-22.12.11:770][236]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.21-22.12.11:838][236]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2019.09.21-22.12.11:875][236]LogContentBrowser: Native class hierarchy updated for 'IS2019' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2019.09.21-22.12.11:880][236]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.21-22.12.11:957][236]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2019.09.21-22.12.11:970][236]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2870 classes and 684 folders.
+[2019.09.21-22.12.11:973][236]Display: HotReload took  0.2s.
+[2019.09.21-22.12.12:626][238]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.09.21-22.12.14:477][341]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.21-22.12.14:490][341]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-22.12.14:490][341]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.21-22.12.14:490][341]PIE: New page: PIE session: RionAITestScene (Sep 21, 2019, 10:12:14 AM)
+[2019.09.21-22.12.14:490][341]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_RionAITestScene
+[2019.09.21-22.12.14:497][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006630s)
+[2019.09.21-22.12.14:498][341]LogAIModule: Creating AISystem for world RionAITestScene
+[2019.09.21-22.12.14:498][341]LogPlayLevel: PIE: World Init took: (0.001137s)
+[2019.09.21-22.12.14:498][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/RionAITestScene.RionAITestScene to /Game/Maps/UEDPIE_0_RionAITestScene.RionAITestScene (0.007951s)
+[2019.09.21-22.12.14:556][341]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2019.09.21-22.12.14:570][341]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.09.21-22.12.14:617][341]LogInit: FAudioDevice initialized.
+[2019.09.21-22.12.14:623][341]LogLoad: Game class is 'IS2019GameMode'
+[2019.09.21-22.12.14:626][341]LogWorld: Bringing World /Game/Maps/UEDPIE_0_RionAITestScene.RionAITestScene up for play (max tick rate 60) at 2019.09.21-16.12.14
+[2019.09.21-22.12.14:626][341]LogWorld: Bringing up level for play took: 0.002484
+[2019.09.21-22.12.14:627][341]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2019.09.21-22.12.14:629][341]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_RionAITestScene -0.599
+[2019.09.21-22.12.14:629][341]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-22.12.24:308][920]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-22.12.24:308][920]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.21-22.12.24:308][920]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_RionAITestScene
+[2019.09.21-22.12.24:309][920]LogWorld: UWorld::CleanupWorld for RionAITestScene, bSessionEnded=true, bCleanupResources=true
+[2019.09.21-22.12.24:316][920]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.21-22.12.24:316][920]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene' with GeneratedClass '/Game/Maps/RionAITestScene.RionAITestScene_C' with ClassGeneratedBy '/Game/Maps/RionAITestScene.RionAITestScene:PersistentLevel.RionAITestScene'
+[2019.09.21-22.12.24:351][920]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.21-22.12.24:354][920]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2019.09.21-22.12.24:408][923]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.09.21-22.14.10:869][403]LogHotReload: New module detected: UE4Editor-IS2019-0020.dll
+[2019.09.21-22.14.45:668][507]LogHotReload: New module detected: UE4Editor-IS2019-0021.dll
+[2019.09.21-22.14.46:350][510]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.21-22.14.46:391][510]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2019.09.21-22.14.46:432][510]LogContentBrowser: Native class hierarchy updated for 'IS2019' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2019.09.21-22.14.46:436][510]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.21-22.14.46:516][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2019.09.21-22.14.46:530][510]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2870 classes and 684 folders.
+[2019.09.21-22.14.46:532][510]Display: HotReload took  0.2s.
+[2019.09.21-22.18.19:672][146]LogHotReload: New module detected: UE4Editor-IS2019-0022.dll
+[2019.09.21-22.19.12:849][305]LogHotReload: New module detected: UE4Editor-IS2019-0023.dll
+[2019.09.21-22.19.40:600][388]LogHotReload: New module detected: UE4Editor-IS2019-0024.dll
+[2019.09.21-22.20.20:426][507]LogHotReload: New module detected: UE4Editor-IS2019-0025.dll
+[2019.09.21-22.20.21:444][511]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.21-22.20.21:516][511]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2019.09.21-22.20.21:552][511]LogContentBrowser: Native class hierarchy updated for 'IS2019' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2019.09.21-22.20.21:556][511]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.21-22.20.21:654][511]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2019.09.21-22.20.21:668][511]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2870 classes and 684 folders.
+[2019.09.21-22.20.21:670][511]Display: HotReload took  0.2s.
+[2019.09.21-22.20.45:548][582]LogHotReload: New module detected: UE4Editor-IS2019-0026.dll
+[2019.09.21-22.20.46:226][585]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.21-22.20.46:296][585]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2019.09.21-22.20.46:329][585]LogContentBrowser: Native class hierarchy updated for 'IS2019' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2019.09.21-22.20.46:333][585]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.21-22.20.46:429][585]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2019.09.21-22.20.46:442][585]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2870 classes and 684 folders.
+[2019.09.21-22.20.46:444][585]Display: HotReload took  0.2s.
+[2019.09.21-22.21.38:768][741]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.09.21-22.24.38:415][305]LogHttp: Warning: 000002ADC121B740: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4BF9C223-4014-64E9-9F67-6F8855FE8A3C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=e21aca4741a0c492adf396b35ac07248%7Cf521cf8c67e04567b2af40f8edf327fe%7C4a81b2cd-1032-4f99-aade-da3ab374ab69&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.09.21-22.24.38:415][305]LogHttp: Warning: 000002ADC121B740: request failed, libcurl error: 0 (No error)
+[2019.09.21-22.24.38:415][305]LogHttp: Warning: 000002ADC121B740: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2ad2cceff70 [can pipeline])
+[2019.09.21-22.24.38:415][305]LogHttp: Warning: 000002ADC121B740: libcurl info message cache 1 (Re-using existing connection! (#26) with host datarouter.ol.epicgames.com)
+[2019.09.21-22.24.38:415][305]LogHttp: Warning: 000002ADC121B740: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.55.229.147) port 443 (#26))
+[2019.09.21-22.24.38:415][305]LogHttp: Warning: 000002ADC121B740: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.09.21-22.24.38:415][305]LogHttp: Warning: 000002ADC121B740: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.09.21-22.24.38:415][305]LogHttp: Warning: 000002ADC121B740: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.09.21-22.24.38:415][305]LogHttp: Warning: 000002ADC121B740: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.09.21-22.24.38:415][305]LogHttp: Warning: 000002ADC121B740: libcurl info message cache 7 (Closing connection 26)
+[2019.09.21-22.24.38:415][305]LogHttp: Warning: 000002ADC121B740: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.09.21-22.24.38:748][306]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4BF9C223-4014-64E9-9F67-6F8855FE8A3C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=e21aca4741a0c492adf396b35ac07248%7Cf521cf8c67e04567b2af40f8edf327fe%7C4a81b2cd-1032-4f99-aade-da3ab374ab69&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.21-22.25.02:909][377]LogHotReload: New module detected: UE4Editor-IS2019-0027.dll
+[2019.09.21-22.25.03:923][381]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.21-22.25.03:997][381]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2019.09.21-22.25.04:029][381]LogContentBrowser: Native class hierarchy updated for 'IS2019' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2019.09.21-22.25.04:034][381]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.21-22.25.04:109][381]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2019.09.21-22.25.04:122][381]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2870 classes and 684 folders.
+[2019.09.21-22.25.04:125][381]Display: HotReload took  0.2s.
+[2019.09.21-22.29.05:278][100]LogHotReload: New module detected: UE4Editor-IS2019-0028.dll
+[2019.09.21-22.29.06:293][104]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.21-22.29.06:369][104]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2019.09.21-22.29.06:406][104]LogContentBrowser: Native class hierarchy updated for 'IS2019' in 0.0006 seconds. Added 6 classes and 2 folders.
+[2019.09.21-22.29.06:410][104]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.21-22.29.06:508][104]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2019.09.21-22.29.06:521][104]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2870 classes and 684 folders.
+[2019.09.21-22.29.06:524][104]Display: HotReload took  0.2s.
+[2019.09.21-22.29.49:979][233]LogHotReload: New module detected: UE4Editor-IS2019-0029.dll
+[2019.09.21-22.29.50:670][236]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.21-22.29.50:751][236]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2019.09.21-22.29.50:789][236]LogContentBrowser: Native class hierarchy updated for 'IS2019' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2019.09.21-22.29.50:793][236]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.21-22.29.50:879][236]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2019.09.21-22.29.50:894][236]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2870 classes and 684 folders.
+[2019.09.21-22.29.50:896][236]Display: HotReload took  0.2s.
+[2019.09.21-22.31.55:852][608]LogHotReload: New module detected: UE4Editor-IS2019-0032.dll
+[2019.09.21-22.31.56:862][612]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.21-22.31.56:936][612]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2019.09.21-22.31.56:969][612]LogContentBrowser: Native class hierarchy updated for 'IS2019' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2019.09.21-22.31.56:975][612]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.21-22.31.57:048][612]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2019.09.21-22.31.57:061][612]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2870 classes and 684 folders.
+[2019.09.21-22.31.57:064][612]Display: HotReload took  0.2s.
+[2019.09.21-22.33.17:357][851]LogHotReload: New module detected: UE4Editor-IS2019-0033.dll
+[2019.09.21-22.33.38:493][915]LogHttp: Warning: 000002ADC1B642C0: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4BF9C223-4014-64E9-9F67-6F8855FE8A3C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=e21aca4741a0c492adf396b35ac07248%7Cf521cf8c67e04567b2af40f8edf327fe%7C4a81b2cd-1032-4f99-aade-da3ab374ab69&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.09.21-22.33.38:493][915]LogHttp: Warning: 000002ADC1B642C0: request failed, libcurl error: 0 (No error)
+[2019.09.21-22.33.38:494][915]LogHttp: Warning: 000002ADC1B642C0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2ad2cceff70 [can pipeline])
+[2019.09.21-22.33.38:494][915]LogHttp: Warning: 000002ADC1B642C0: libcurl info message cache 1 (Re-using existing connection! (#30) with host datarouter.ol.epicgames.com)
+[2019.09.21-22.33.38:494][915]LogHttp: Warning: 000002ADC1B642C0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.86.156.38) port 443 (#30))
+[2019.09.21-22.33.38:494][915]LogHttp: Warning: 000002ADC1B642C0: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.09.21-22.33.38:494][915]LogHttp: Warning: 000002ADC1B642C0: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.09.21-22.33.38:494][915]LogHttp: Warning: 000002ADC1B642C0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.09.21-22.33.38:494][915]LogHttp: Warning: 000002ADC1B642C0: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.09.21-22.33.38:494][915]LogHttp: Warning: 000002ADC1B642C0: libcurl info message cache 7 (Closing connection 30)
+[2019.09.21-22.33.38:494][915]LogHttp: Warning: 000002ADC1B642C0: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.09.21-22.33.38:833][916]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4BF9C223-4014-64E9-9F67-6F8855FE8A3C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=e21aca4741a0c492adf396b35ac07248%7Cf521cf8c67e04567b2af40f8edf327fe%7C4a81b2cd-1032-4f99-aade-da3ab374ab69&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.21-22.33.58:015][972]LogHotReload: New module detected: UE4Editor-IS2019-0034.dll
+[2019.09.21-22.33.59:027][976]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.21-22.33.59:099][976]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2019.09.21-22.33.59:132][976]LogContentBrowser: Native class hierarchy updated for 'IS2019' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2019.09.21-22.33.59:136][976]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.21-22.33.59:204][976]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2019.09.21-22.33.59:218][976]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2870 classes and 684 folders.
+[2019.09.21-22.33.59:221][976]Display: HotReload took  0.2s.
+[2019.09.21-22.34.28:195][ 62]LogHotReload: New module detected: UE4Editor-IS2019-0035.dll
+[2019.09.21-22.34.28:877][ 65]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.21-22.34.28:954][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2019.09.21-22.34.28:985][ 65]LogContentBrowser: Native class hierarchy updated for 'IS2019' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2019.09.21-22.34.28:989][ 65]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.21-22.34.29:060][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2019.09.21-22.34.29:073][ 65]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2870 classes and 684 folders.
+[2019.09.21-22.34.29:075][ 65]Display: HotReload took  0.2s.
+[2019.09.21-22.42.38:108][524]LogHttp: Warning: 000002ADBF69AFC0: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4BF9C223-4014-64E9-9F67-6F8855FE8A3C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=e21aca4741a0c492adf396b35ac07248%7Cf521cf8c67e04567b2af40f8edf327fe%7C4a81b2cd-1032-4f99-aade-da3ab374ab69&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.09.21-22.42.38:108][524]LogHttp: Warning: 000002ADBF69AFC0: request failed, libcurl error: 0 (No error)
+[2019.09.21-22.42.38:108][524]LogHttp: Warning: 000002ADBF69AFC0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2ad2cceff70 [can pipeline])
+[2019.09.21-22.42.38:108][524]LogHttp: Warning: 000002ADBF69AFC0: libcurl info message cache 1 (Re-using existing connection! (#33) with host datarouter.ol.epicgames.com)
+[2019.09.21-22.42.38:108][524]LogHttp: Warning: 000002ADBF69AFC0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.204.145.10) port 443 (#33))
+[2019.09.21-22.42.38:108][524]LogHttp: Warning: 000002ADBF69AFC0: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.09.21-22.42.38:108][524]LogHttp: Warning: 000002ADBF69AFC0: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.09.21-22.42.38:108][524]LogHttp: Warning: 000002ADBF69AFC0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.09.21-22.42.38:108][524]LogHttp: Warning: 000002ADBF69AFC0: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.09.21-22.42.38:109][524]LogHttp: Warning: 000002ADBF69AFC0: libcurl info message cache 7 (Closing connection 33)
+[2019.09.21-22.42.38:109][524]LogHttp: Warning: 000002ADBF69AFC0: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.09.21-22.42.38:109][524]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4BF9C223-4014-64E9-9F67-6F8855FE8A3C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=e21aca4741a0c492adf396b35ac07248%7Cf521cf8c67e04567b2af40f8edf327fe%7C4a81b2cd-1032-4f99-aade-da3ab374ab69&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.21-22.45.00:050][946]LogHotReload: New module detected: UE4Editor-IS2019-0036.dll
+[2019.09.21-22.45.01:083][950]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.21-22.45.01:174][950]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2019.09.21-22.45.01:208][950]LogContentBrowser: Native class hierarchy updated for 'IS2019' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2019.09.21-22.45.01:212][950]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.21-22.45.01:290][950]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2019.09.21-22.45.01:307][950]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2870 classes and 684 folders.
+[2019.09.21-22.45.01:309][950]Display: HotReload took  0.2s.
+[2019.09.21-22.47.00:485][305]LogHotReload: New module detected: UE4Editor-IS2019-0037.dll
+[2019.09.21-22.47.01:167][308]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.21-22.47.01:247][308]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2019.09.21-22.47.01:286][308]LogContentBrowser: Native class hierarchy updated for 'IS2019' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2019.09.21-22.47.01:290][308]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.21-22.47.01:395][308]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2019.09.21-22.47.01:412][308]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2870 classes and 684 folders.
+[2019.09.21-22.47.01:413][308]Display: HotReload took  0.2s.
+[2019.09.21-22.47.11:000][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RionAITestScene" FILE="../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Maps/RionAITestScene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.09.21-22.47.11:061][484]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2019.09.21-22.47.11:227][484]LogSavePackage: Moving '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/RionAITestSceneA2F52D484CF60DD61AABD59AD691798F.tmp' to '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/Maps/RionAITestScene.umap'
+[2019.09.21-22.47.12:978][585]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2019.09.21-22.47.14:821][585]LogSlate: Window 'Save Content' being destroyed
+[2019.09.21-22.47.14:842][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/Tutorial/SubEditors/TutorialAssets/TutorialMaterial" FILE="../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.uasset" SILENT=true
+[2019.09.21-22.47.14:859][585]LogSavePackage: Moving '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/TutorialMaterialD43556FC44E3C66EA17B5BA9D7DF4E06.tmp' to '../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.uasset'
+[2019.09.21-22.47.14:885][585]LogSavePackage: Moving '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/M_Wood_Walnut46A1365546D42AE6604A7B87C2BC4D6F.tmp' to '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/StarterContent/Materials/M_Wood_Walnut.uasset'
+[2019.09.21-22.47.14:910][585]LogSavePackage: Moving '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Saved/M_Frame270409A74BBCA06325894D910B38547B.tmp' to '../../../../../../Users/Rion Cole/Desktop/IS-2019/IS2019/Content/StarterContent/Props/Materials/M_Frame.uasset'
+[2019.09.21-22.47.14:981][585]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2019.09.21-22.47.15:016][585]LogSlate: Window 'IS2019 - Unreal Editor' being destroyed
+[2019.09.21-22.47.15:136][586]Cmd: QUIT_EDITOR
+[2019.09.21-22.47.15:927][586]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.09.21-22.47.15:941][586]LogExit: Preparing to exit.
+[2019.09.21-22.47.16:181][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:181][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:181][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:181][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:181][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:181][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:181][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:181][586]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.09.21-22.47.16:181][586]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2019.09.21-22.47.16:181][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:181][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:181][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:181][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:181][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:181][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:181][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:181][586]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.09.21-22.47.16:181][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:181][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:181][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:181][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:181][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:181][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:181][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:181][586]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.09.21-22.47.16:182][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:182][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:182][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:182][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:182][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:182][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:182][586]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.09.21-22.47.16:182][586]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.09.21-22.47.16:183][586]LogDirectoryWatcher: A directory notification failed for 'C:/Users/Rion Cole/Desktop/IS-2019/IS2019/Content/', and we were unable to create a new request.
+[2019.09.21-22.47.16:188][586]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2019.09.21-22.47.16:203][586]LogExit: Editor shut down
+[2019.09.21-22.47.16:204][586]LogExit: Transaction tracking system shut down
+[2019.09.21-22.47.16:387][586]LogExit: Object subsystem successfully closed.
+[2019.09.21-22.47.16:410][586]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.09.21-22.47.16:443][586]LogModuleManager: Shutting down and abandoning module IS2019 (699)
+[2019.09.21-22.47.16:443][586]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (676)
+[2019.09.21-22.47.16:443][586]LogModuleManager: Shutting down and abandoning module Voice (674)
+[2019.09.21-22.47.16:444][586]LogModuleManager: Shutting down and abandoning module BlueprintGraph (672)
+[2019.09.21-22.47.16:444][586]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (670)
+[2019.09.21-22.47.16:444][586]LogModuleManager: Shutting down and abandoning module SceneOutliner (668)
+[2019.09.21-22.47.16:444][586]LogModuleManager: Shutting down and abandoning module AddContentDialog (666)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module WidgetCarousel (665)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module EditorWidgets (662)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module CollectionManager (660)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module StatsViewer (658)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (656)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module FoliageEdit (654)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module LandscapeEditor (652)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module MeshPaintMode (650)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (648)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module ActorPickerMode (646)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module GeometryMode (644)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module TextureAlignMode (642)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module BspMode (640)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (638)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (636)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module AutomationWorker (634)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module OculusMR (632)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (630)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (628)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (626)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module PlacementMode (625)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module MaterialEditor (624)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (620)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (618)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (616)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (614)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (612)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module WebMMedia (610)
+[2019.09.21-22.47.16:450][586]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (608)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (606)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module SequenceRecorder (605)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (602)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (600)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (598)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (596)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (594)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (592)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (590)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (588)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (586)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (584)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (582)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module CharacterAI (580)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module SmartSnapping (578)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module SessionServices (576)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module MeshPaint (574)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module ViewportSnapping (572)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module ViewportInteraction (570)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module ClothPainter (568)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (567)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module LogVisualizer (564)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module IntroTutorials (562)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (561)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (558)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (556)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (554)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (552)
+[2019.09.21-22.47.16:451][586]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (551)
+[2019.09.21-22.47.18:447][586]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (548)
+[2019.09.21-22.47.18:447][586]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (546)
+[2019.09.21-22.47.18:447][586]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (544)
+[2019.09.21-22.47.18:447][586]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (542)
+[2019.09.21-22.47.18:447][586]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (540)
+[2019.09.21-22.47.18:447][586]LogModuleManager: Shutting down and abandoning module InputBindingEditor (538)
+[2019.09.21-22.47.18:447][586]LogModuleManager: Shutting down and abandoning module MergeActors (536)
+[2019.09.21-22.47.18:447][586]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (534)
+[2019.09.21-22.47.18:447][586]LogModuleManager: Shutting down and abandoning module LocalizationService (533)
+[2019.09.21-22.47.18:447][586]LogModuleManager: Shutting down and abandoning module HardwareTargeting (530)
+[2019.09.21-22.47.18:447][586]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (528)
+[2019.09.21-22.47.18:448][586]LogModuleManager: Shutting down and abandoning module UndoHistory (526)
+[2019.09.21-22.47.18:448][586]LogModuleManager: Shutting down and abandoning module XmlParser (524)
+[2019.09.21-22.47.18:448][586]LogModuleManager: Shutting down and abandoning module Blutility (522)
+[2019.09.21-22.47.18:448][586]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (520)
+[2019.09.21-22.47.18:448][586]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (519)
+[2019.09.21-22.47.18:448][586]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (516)
+[2019.09.21-22.47.18:449][586]LogModuleManager: Shutting down and abandoning module SettingsEditor (514)
+[2019.09.21-22.47.18:449][586]LogModuleManager: Shutting down and abandoning module ProjectLauncher (512)
+[2019.09.21-22.47.18:449][586]LogModuleManager: Shutting down and abandoning module SessionFrontend (510)
+[2019.09.21-22.47.18:449][586]LogModuleManager: Shutting down and abandoning module ProfilerClient (508)
+[2019.09.21-22.47.18:449][586]LogModuleManager: Shutting down and abandoning module DeviceManager (506)
+[2019.09.21-22.47.18:449][586]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (505)
+[2019.09.21-22.47.18:492][586]LogModuleManager: Shutting down and abandoning module AutomationController (502)
+[2019.09.21-22.47.18:492][586]LogModuleManager: Shutting down and abandoning module AutomationWindow (500)
+[2019.09.21-22.47.18:492][586]LogModuleManager: Shutting down and abandoning module Layers (498)
+[2019.09.21-22.47.18:492][586]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (496)
+[2019.09.21-22.47.18:492][586]LogModuleManager: Shutting down and abandoning module DetailCustomizations (494)
+[2019.09.21-22.47.18:492][586]LogModuleManager: Shutting down and abandoning module PackagesDialog (492)
+[2019.09.21-22.47.18:493][586]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (490)
+[2019.09.21-22.47.18:493][586]LogModuleManager: Shutting down and abandoning module Persona (488)
+[2019.09.21-22.47.18:493][586]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (487)
+[2019.09.21-22.47.18:493][586]LogModuleManager: Shutting down and abandoning module AnimGraph (485)
+[2019.09.21-22.47.18:493][586]LogModuleManager: Shutting down and abandoning module Kismet (482)
+[2019.09.21-22.47.18:501][586]LogModuleManager: Shutting down and abandoning module KismetWidgets (481)
+[2019.09.21-22.47.18:501][586]LogModuleManager: Shutting down and abandoning module GraphEditor (478)
+[2019.09.21-22.47.18:501][586]LogModuleManager: Shutting down and abandoning module StructViewer (476)
+[2019.09.21-22.47.18:501][586]LogModuleManager: Shutting down and abandoning module ClassViewer (474)
+[2019.09.21-22.47.18:503][586]LogModuleManager: Shutting down and abandoning module Toolbox (472)
+[2019.09.21-22.47.18:503][586]LogModuleManager: Shutting down and abandoning module DesktopPlatform (471)
+[2019.09.21-22.47.18:503][586]LogModuleManager: Shutting down and abandoning module ModuleUI (468)
+[2019.09.21-22.47.18:503][586]LogModuleManager: Shutting down and abandoning module MovieSceneTools (466)
+[2019.09.21-22.47.18:503][586]LogModuleManager: Shutting down and abandoning module OutputLog (464)
+[2019.09.21-22.47.18:504][586]LogModuleManager: Shutting down and abandoning module GammaUI (462)
+[2019.09.21-22.47.18:504][586]LogModuleManager: Shutting down and abandoning module Documentation (460)
+[2019.09.21-22.47.18:504][586]LogModuleManager: Shutting down and abandoning module LiveCoding (458)
+[2019.09.21-22.47.18:504][586]LogModuleManager: Shutting down and abandoning module LevelSequence (456)
+[2019.09.21-22.47.18:504][586]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (454)
+[2019.09.21-22.47.18:504][586]LogModuleManager: Shutting down and abandoning module MovieScene (452)
+[2019.09.21-22.47.18:504][586]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (450)
+[2019.09.21-22.47.18:504][586]LogModuleManager: Shutting down and abandoning module LauncherPlatform (448)
+[2019.09.21-22.47.18:504][586]LogModuleManager: Shutting down and abandoning module AnalyticsET (446)
+[2019.09.21-22.47.18:504][586]LogModuleManager: Shutting down and abandoning module PortalServices (444)
+[2019.09.21-22.47.18:504][586]LogModuleManager: Shutting down and abandoning module PortalRpc (442)
+[2019.09.21-22.47.18:504][586]LogModuleManager: Shutting down and abandoning module MessagingRpc (440)
+[2019.09.21-22.47.18:504][586]LogModuleManager: Shutting down and abandoning module AIModule (438)
+[2019.09.21-22.47.18:504][586]LogModuleManager: Shutting down and abandoning module GameplayDebugger (437)
+[2019.09.21-22.47.18:504][586]LogModuleManager: Shutting down and abandoning module AITestSuite (435)
+[2019.09.21-22.47.18:504][586]LogModuleManager: Shutting down and abandoning module NavigationSystem (433)
+[2019.09.21-22.47.18:504][586]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (430)
+[2019.09.21-22.47.18:506][586]LogModuleManager: Shutting down and abandoning module ProfilerService (428)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module TaskGraph (426)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module ScreenshotTools (424)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module SteamVRController (422)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (420)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (418)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module OculusEditor (416)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module OculusInput (414)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (412)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module EditableMesh (410)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (408)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module CableComponent (406)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module AudioCapture (404)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (402)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (400)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module AppleImageUtils (398)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module AndroidPermission (396)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (394)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (392)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module MediaCompositing (390)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module ImgMedia (388)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (386)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (384)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (382)
+[2019.09.21-22.47.18:626][586]LogModuleManager: Shutting down and abandoning module HTML5Networking (380)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (378)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (376)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module BackChannel (374)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (372)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module AutomationUtils (370)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module AlembicImporter (368)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module AlembicLibrary (367)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module GeometryCache (366)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (365)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module VariantManagerContent (360)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (358)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (356)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module PluginBrowser (354)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (352)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (350)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module CurveEditorTools (348)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module CurveEditor (347)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (344)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module CryptoKeys (342)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (340)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (338)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module UObjectPlugin (336)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (334)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (332)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module GitSourceControl (330)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module SourceControl (329)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (326)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (324)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (322)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (320)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (318)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (316)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (314)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module Paper2DEditor (312)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module SignificanceManager (308)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (306)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (304)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (300)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module ActorSequence (298)
+[2019.09.21-22.47.18:627][586]LogModuleManager: Shutting down and abandoning module UdpMessaging (296)
+[2019.09.21-22.47.18:728][586]LogModuleManager: Shutting down and abandoning module TcpMessaging (294)
+[2019.09.21-22.47.18:828][586]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (292)
+[2019.09.21-22.47.18:828][586]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (290)
+[2019.09.21-22.47.18:828][586]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (288)
+[2019.09.21-22.47.18:828][586]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (286)
+[2019.09.21-22.47.18:828][586]LogModuleManager: Shutting down and abandoning module MagicLeapController (284)
+[2019.09.21-22.47.18:829][586]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.09.21-22.47.18:829][586]LogModuleManager: Shutting down and abandoning module MagicLeapAR (282)
+[2019.09.21-22.47.18:829][586]LogModuleManager: Shutting down and abandoning module AugmentedReality (281)
+[2019.09.21-22.47.18:829][586]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (278)
+[2019.09.21-22.47.18:829][586]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (276)
+[2019.09.21-22.47.18:830][586]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
+[2019.09.21-22.47.18:830][586]LogModuleManager: Shutting down and abandoning module DataValidation (272)
+[2019.09.21-22.47.18:830][586]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (270)
+[2019.09.21-22.47.18:830][586]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2019.09.21-22.47.18:834][586]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2019.09.21-22.47.18:834][586]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (266)
+[2019.09.21-22.47.18:835][586]LogModuleManager: Shutting down and abandoning module MainFrame (264)
+[2019.09.21-22.47.18:835][586]LogModuleManager: Shutting down and abandoning module HotReload (263)
+[2019.09.21-22.47.18:836][586]LogModuleManager: Shutting down and abandoning module ContentBrowser (259)
+[2019.09.21-22.47.18:840][586]LogModuleManager: Shutting down and abandoning module TreeMap (257)
+[2019.09.21-22.47.18:840][586]LogModuleManager: Shutting down and abandoning module AnimationSharing (254)
+[2019.09.21-22.47.18:840][586]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.09.21-22.47.18:840][586]LogModuleManager: Shutting down and abandoning module Paper2D (250)
+[2019.09.21-22.47.18:840][586]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (248)
+[2019.09.21-22.47.18:847][586]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (246)
+[2019.09.21-22.47.18:847][586]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (244)
+[2019.09.21-22.47.18:847][586]LogModuleManager: Shutting down and abandoning module PacketHandler (242)
+[2019.09.21-22.47.18:847][586]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (240)
+[2019.09.21-22.47.18:847][586]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (238)
+[2019.09.21-22.47.18:847][586]LogModuleManager: Shutting down and abandoning module MediaAssets (236)
+[2019.09.21-22.47.18:847][586]LogModuleManager: Shutting down and abandoning module Overlay (234)
+[2019.09.21-22.47.18:847][586]LogModuleManager: Shutting down and abandoning module OverlayEditor (233)
+[2019.09.21-22.47.18:847][586]LogModuleManager: Shutting down and abandoning module VREditor (230)
+[2019.09.21-22.47.18:848][586]LogModuleManager: Shutting down and abandoning module StringTableEditor (228)
+[2019.09.21-22.47.18:848][586]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (226)
+[2019.09.21-22.47.18:848][586]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (224)
+[2019.09.21-22.47.18:848][586]LogModuleManager: Shutting down and abandoning module FunctionalTesting (222)
+[2019.09.21-22.47.18:848][586]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (220)
+[2019.09.21-22.47.18:848][586]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
+[2019.09.21-22.47.18:848][586]LogModuleManager: Shutting down and abandoning module UMG (216)
+[2019.09.21-22.47.18:848][586]LogModuleManager: Shutting down and abandoning module UMGEditor (215)
+[2019.09.21-22.47.18:848][586]LogModuleManager: Shutting down and abandoning module Sequencer (214)
+[2019.09.21-22.47.18:848][586]LogModuleManager: Shutting down and abandoning module MessageLog (211)
+[2019.09.21-22.47.18:848][586]LogModuleManager: Shutting down and abandoning module SlateReflector (206)
+[2019.09.21-22.47.18:848][586]LogModuleManager: Shutting down and abandoning module Slate (204)
+[2019.09.21-22.47.18:848][586]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
+[2019.09.21-22.47.18:849][586]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (179)
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (175)
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module MaterialBaking (171)
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (166)
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module DerivedDataCache (164)
+[2019.09.21-22.47.18:852][586]LogDerivedDataCache: Shutdown
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module XGEController (162)
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module TargetPlatform (160)
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (159)
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (157)
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (155)
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (153)
+[2019.09.21-22.47.18:852][586]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (151)
+[2019.09.21-22.47.18:853][586]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (149)
+[2019.09.21-22.47.18:853][586]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (147)
+[2019.09.21-22.47.18:853][586]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (145)
+[2019.09.21-22.47.18:853][586]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (143)
+[2019.09.21-22.47.18:853][586]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (141)
+[2019.09.21-22.47.18:853][586]LogModuleManager: Shutting down and abandoning module ImageWrapper (140)
+[2019.09.21-22.47.18:853][586]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (137)
+[2019.09.21-22.47.18:853][586]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (135)
+[2019.09.21-22.47.18:853][586]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (133)
+[2019.09.21-22.47.18:853][586]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (131)
+[2019.09.21-22.47.18:853][586]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2019.09.21-22.47.18:856][586]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (127)
+[2019.09.21-22.47.18:856][586]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (125)
+[2019.09.21-22.47.18:856][586]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (123)
+[2019.09.21-22.47.18:856][586]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
+[2019.09.21-22.47.18:856][586]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (119)
+[2019.09.21-22.47.18:859][586]LogModuleManager: Shutting down and abandoning module Messaging (117)
+[2019.09.21-22.47.18:859][586]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
+[2019.09.21-22.47.18:861][586]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (113)
+[2019.09.21-22.47.18:861][586]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2019.09.21-22.47.18:875][586]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (109)
+[2019.09.21-22.47.18:875][586]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (107)
+[2019.09.21-22.47.18:875][586]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (105)
+[2019.09.21-22.47.18:875][586]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (103)
+[2019.09.21-22.47.18:875][586]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (101)
+[2019.09.21-22.47.18:875][586]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (99)
+[2019.09.21-22.47.18:875][586]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (97)
+[2019.09.21-22.47.18:875][586]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (95)
+[2019.09.21-22.47.18:875][586]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (93)
+[2019.09.21-22.47.18:875][586]LogModuleManager: Shutting down and abandoning module InputCore (90)
+[2019.09.21-22.47.18:876][586]LogModuleManager: Shutting down and abandoning module Settings (88)
+[2019.09.21-22.47.18:876][586]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2019.09.21-22.47.18:876][586]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.09.21-22.47.18:876][586]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (82)
+[2019.09.21-22.47.18:876][586]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (81)
+[2019.09.21-22.47.18:876][586]LogModuleManager: Shutting down and abandoning module SteamVR (78)
+[2019.09.21-22.47.18:876][586]LogHMD: Freeing OpenVRDLLHandle.
+[2019.09.21-22.47.18:876][586]LogModuleManager: Shutting down and abandoning module OculusHMD (76)
+[2019.09.21-22.47.18:876][586]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (74)
+[2019.09.21-22.47.18:876][586]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (72)
+[2019.09.21-22.47.18:876][586]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2019.09.21-22.47.18:876][586]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (66)
+[2019.09.21-22.47.18:877][586]LogModuleManager: Shutting down and abandoning module XMPP (61)
+[2019.09.21-22.47.18:877][586]LogModuleManager: Shutting down and abandoning module WebSockets (60)
+[2019.09.21-22.47.18:880][586]LogModuleManager: Shutting down and abandoning module HTTP (57)
+[2019.09.21-22.47.18:880][586]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.09.21-22.47.18:880][586]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4BF9C223-4014-64E9-9F67-6F8855FE8A3C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=e21aca4741a0c492adf396b35ac07248%7Cf521cf8c67e04567b2af40f8edf327fe%7C4a81b2cd-1032-4f99-aade-da3ab374ab69&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.09.21-22.47.18:888][586]LogModuleManager: Shutting down and abandoning module SSL (56)
+[2019.09.21-22.47.18:889][586]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
+[2019.09.21-22.47.18:891][586]LogModuleManager: Shutting down and abandoning module Media (51)
+[2019.09.21-22.47.18:891][586]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
+[2019.09.21-22.47.18:891][586]LogModuleManager: Shutting down and abandoning module DatasmithContent (46)
+[2019.09.21-22.47.18:891][586]LogModuleManager: Shutting down and abandoning module AISupportModule (44)
+[2019.09.21-22.47.18:891][586]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
+[2019.09.21-22.47.18:891][586]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2019.09.21-22.47.18:891][586]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.09.21-22.47.18:891][586]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.09.21-22.47.18:891][586]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.09.21-22.47.18:892][586]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.09.21-22.47.18:892][586]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.09.21-22.47.18:892][586]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.09.21-22.47.18:892][586]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.09.21-22.47.18:893][586]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.09.21-22.47.18:893][586]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.09.21-22.47.18:893][586]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.09.21-22.47.18:893][586]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.09.21-22.47.18:894][586]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.09.21-22.47.18:894][586]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.09.21-22.47.18:894][586]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.09.21-22.47.18:894][586]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.09.21-22.47.18:894][586]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.09.21-22.47.18:894][586]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.09.21-22.47.18:894][586]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.09.21-22.47.18:894][586]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.09.21-22.47.18:894][586]LogD3D11RHI: Shutdown
+[2019.09.21-22.47.18:894][586]LogD3D11RHI: CleanupD3DDevice
+[2019.09.21-22.47.18:895][586]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.09.21-22.47.18:895][586]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.09.21-22.47.18:895][586]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.09.21-22.47.18:987][586]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.09.21-22.47.18:995][586]LogExit: Exiting.
+[2019.09.21-22.47.19:010][586]Log file closed, 09/21/19 16:47:19
