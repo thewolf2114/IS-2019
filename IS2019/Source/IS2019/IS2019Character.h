@@ -48,8 +48,12 @@ class AIS2019Character : public ACharacter
 public:
 	AIS2019Character();
 
+	void TakeDamage(float damage);
+
 protected:
 	virtual void BeginPlay();
+
+	float m_health;
 
 public:
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */

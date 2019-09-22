@@ -8,13 +8,44 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+struct FVector;
+struct FHitResult;
 #ifdef IS2019_EnemyAgent1_generated_h
 #error "EnemyAgent1.generated.h already included, missing '#pragma once' in EnemyAgent1.h"
 #endif
 #define IS2019_EnemyAgent1_generated_h
 
-#define IS2019_Source_IS2019_EnemyAgent1_h_12_RPC_WRAPPERS
-#define IS2019_Source_IS2019_EnemyAgent1_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define IS2019_Source_IS2019_EnemyAgent1_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnAttackingPlayer) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_SelfActor); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_STRUCT(FVector,Z_Param_NormalImpulse); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnAttackingPlayer(Z_Param_SelfActor,Z_Param_OtherActor,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+		P_NATIVE_END; \
+	}
+
+
+#define IS2019_Source_IS2019_EnemyAgent1_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnAttackingPlayer) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_SelfActor); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_STRUCT(FVector,Z_Param_NormalImpulse); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnAttackingPlayer(Z_Param_SelfActor,Z_Param_OtherActor,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+		P_NATIVE_END; \
+	}
+
+
 #define IS2019_Source_IS2019_EnemyAgent1_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAEnemyAgent1(); \
@@ -57,7 +88,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemyAgent1); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AEnemyAgent1)
 
 
-#define IS2019_Source_IS2019_EnemyAgent1_h_12_PRIVATE_PROPERTY_OFFSET
+#define IS2019_Source_IS2019_EnemyAgent1_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__m_playerReached() { return STRUCT_OFFSET(AEnemyAgent1, m_playerReached); } \
+	FORCEINLINE static uint32 __PPO__m_damage() { return STRUCT_OFFSET(AEnemyAgent1, m_damage); }
+
+
 #define IS2019_Source_IS2019_EnemyAgent1_h_9_PROLOG
 #define IS2019_Source_IS2019_EnemyAgent1_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

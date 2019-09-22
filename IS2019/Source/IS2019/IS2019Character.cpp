@@ -82,6 +82,9 @@ AIS2019Character::AIS2019Character()
 
 	// Uncomment the following line to turn motion controllers on by default:
 	//bUsingMotionControllers = true;
+
+	// initialize health
+	m_health = 100;
 }
 
 void AIS2019Character::BeginPlay()
@@ -270,6 +273,11 @@ void AIS2019Character::MoveRight(float Value)
 		// add movement in that direction
 		AddMovementInput(GetActorRightVector(), Value);
 	}
+}
+
+void AIS2019Character::TakeDamage(float damage)
+{
+	m_health -= damage;
 }
 
 void AIS2019Character::TurnAtRate(float Rate)

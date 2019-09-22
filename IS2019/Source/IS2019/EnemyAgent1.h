@@ -32,12 +32,22 @@ protected:
 
 	virtual void ChangeState();
 
+	UFUNCTION()
+	void OnAttackingPlayer(AActor * SelfActor, AActor * OtherActor, FVector NormalImpulse, const FHitResult & Hit);
+
 	float m_health;
 	float m_speed;
 	float m_aggression;
 	bool m_isAttacking;
 
+	UPROPERTY(Editanywhere, BlueprintReadWrite, Category = "Pathfinding")
+	bool m_playerReached;
+
+	UPROPERTY(EditAnywhere, Category = "Damage")
+	float m_damage;
+
 	UCharacterMovementComponent* m_characterMovement;
+	UCapsuleComponent* m_collider;
 
 public:	
 	// Called every frame
