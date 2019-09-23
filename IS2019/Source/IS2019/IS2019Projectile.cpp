@@ -1,6 +1,7 @@
 // Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 
 #include "IS2019Projectile.h"
+#include "EnemyAgent1.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "Components/SphereComponent.h"
 
@@ -29,6 +30,8 @@ AIS2019Projectile::AIS2019Projectile()
 
 	// Die after 3 seconds by default
 	InitialLifeSpan = 3.0f;
+
+	m_damage = 20;
 }
 
 void AIS2019Projectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
@@ -39,5 +42,10 @@ void AIS2019Projectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, 
 		OtherComp->AddImpulseAtLocation(GetVelocity() * 100.0f, GetActorLocation());
 
 		Destroy();
+	}
+
+	if (AEnemyAgent1* enemy = Cast<AEnemyAgent1>(OtherActor))
+	{
+		enemy->TakeDamage(m_damage);
 	}
 }

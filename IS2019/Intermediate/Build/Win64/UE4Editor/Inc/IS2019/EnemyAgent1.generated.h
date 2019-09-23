@@ -89,6 +89,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemyAgent1); \
 
 
 #define IS2019_Source_IS2019_EnemyAgent1_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__m_isAttacking() { return STRUCT_OFFSET(AEnemyAgent1, m_isAttacking); } \
 	FORCEINLINE static uint32 __PPO__m_playerReached() { return STRUCT_OFFSET(AEnemyAgent1, m_playerReached); } \
 	FORCEINLINE static uint32 __PPO__m_damage() { return STRUCT_OFFSET(AEnemyAgent1, m_damage); }
 

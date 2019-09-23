@@ -84,7 +84,8 @@ AIS2019Character::AIS2019Character()
 	//bUsingMotionControllers = true;
 
 	// initialize health
-	m_health = 100;
+	m_maxHealth = 100;
+	m_currentHealth = m_maxHealth;
 }
 
 void AIS2019Character::BeginPlay()
@@ -277,7 +278,7 @@ void AIS2019Character::MoveRight(float Value)
 
 void AIS2019Character::TakeDamage(float damage)
 {
-	m_health -= damage;
+	m_currentHealth -= damage;
 }
 
 void AIS2019Character::TurnAtRate(float Rate)

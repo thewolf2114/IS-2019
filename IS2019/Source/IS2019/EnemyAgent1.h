@@ -38,6 +38,8 @@ protected:
 	float m_health;
 	float m_speed;
 	float m_aggression;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Attacking")
 	bool m_isAttacking;
 
 	UPROPERTY(Editanywhere, BlueprintReadWrite, Category = "Pathfinding")
@@ -52,5 +54,7 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	virtual void TakeDamage(float damage);
 
 };

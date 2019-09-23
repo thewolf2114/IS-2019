@@ -53,7 +53,11 @@ public:
 protected:
 	virtual void BeginPlay();
 
-	float m_health;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	float m_currentHealth;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	float m_maxHealth;
 
 public:
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */

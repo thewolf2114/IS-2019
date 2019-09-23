@@ -102,6 +102,11 @@ void EmptyLinkFunctionForGeneratedCodeEnemyAgent1() {}
 #endif
 		static void NewProp_m_playerReached_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_m_playerReached;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_isAttacking_MetaData[];
+#endif
+		static void NewProp_m_isAttacking_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_m_isAttacking;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -138,9 +143,21 @@ void EmptyLinkFunctionForGeneratedCodeEnemyAgent1() {}
 		((AEnemyAgent1*)Obj)->m_playerReached = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AEnemyAgent1_Statics::NewProp_m_playerReached = { "m_playerReached", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AEnemyAgent1), &Z_Construct_UClass_AEnemyAgent1_Statics::NewProp_m_playerReached_SetBit, METADATA_PARAMS(Z_Construct_UClass_AEnemyAgent1_Statics::NewProp_m_playerReached_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemyAgent1_Statics::NewProp_m_playerReached_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyAgent1_Statics::NewProp_m_isAttacking_MetaData[] = {
+		{ "Category", "Attacking" },
+		{ "ModuleRelativePath", "EnemyAgent1.h" },
+	};
+#endif
+	void Z_Construct_UClass_AEnemyAgent1_Statics::NewProp_m_isAttacking_SetBit(void* Obj)
+	{
+		((AEnemyAgent1*)Obj)->m_isAttacking = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AEnemyAgent1_Statics::NewProp_m_isAttacking = { "m_isAttacking", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AEnemyAgent1), &Z_Construct_UClass_AEnemyAgent1_Statics::NewProp_m_isAttacking_SetBit, METADATA_PARAMS(Z_Construct_UClass_AEnemyAgent1_Statics::NewProp_m_isAttacking_MetaData, ARRAY_COUNT(Z_Construct_UClass_AEnemyAgent1_Statics::NewProp_m_isAttacking_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AEnemyAgent1_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyAgent1_Statics::NewProp_m_damage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyAgent1_Statics::NewProp_m_playerReached,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyAgent1_Statics::NewProp_m_isAttacking,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AEnemyAgent1_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AEnemyAgent1>::IsAbstract,
@@ -169,7 +186,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyAgent1() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemyAgent1, 114323929);
+	IMPLEMENT_CLASS(AEnemyAgent1, 3271688963);
 	template<> IS2019_API UClass* StaticClass<AEnemyAgent1>()
 	{
 		return AEnemyAgent1::StaticClass();

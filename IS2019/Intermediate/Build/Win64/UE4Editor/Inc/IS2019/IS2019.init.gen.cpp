@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeIS2019_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x8AE079BE,
+				0xFB3D7EAD,
 				0xBA4A238C,
 				METADATA_PARAMS(nullptr, 0)
 			};

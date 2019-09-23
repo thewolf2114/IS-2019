@@ -18,7 +18,7 @@ AEnemyAgent1::AEnemyAgent1()
 	m_characterMovement = GetCharacterMovement();
 	m_collider = GetCapsuleComponent();
 
-	//OnActorHit.AddDynamic(this, &AEnemyAgent1::OnAttackingPlayer);
+	OnActorHit.AddDynamic(this, &AEnemyAgent1::OnAttackingPlayer);
 
 	m_health = 100;
 	m_speed = 500;
@@ -101,6 +101,11 @@ void AEnemyAgent1::OnAttackStateExit()
 	// set the animation back to walking
 }
 
+//******************************************************
+//			   INTENTIONALLY LEFT BLANK				   *
+// Further development of other enemy types needs to   *
+// be added before further developement of Dead State  *
+//******************************************************
 void AEnemyAgent1::OnDeadStateEnter()
 {
 	// set the dead animation
@@ -135,4 +140,21 @@ void AEnemyAgent1::OnAttackingPlayer(AActor * SelfActor, AActor * OtherActor, FV
 void AEnemyAgent1::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	//GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Yellow, m_playerReached ? "Player found" : "Player not found");
+
+	if (m_playerReached)
+	{
+		OnAttackStateUpdate();
+	}
+}
+
+void AEnemyAgent1::TakeDamage(float damage)
+{
+	m_health -= damage;
+
+	if (m_health <= 0)
+	{
+		Destroy();
+	}
 }

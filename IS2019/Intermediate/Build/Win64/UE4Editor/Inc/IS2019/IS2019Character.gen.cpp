@@ -70,6 +70,14 @@ void EmptyLinkFunctionForGeneratedCodeIS2019Character() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseTurnRate;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_maxHealth_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_m_maxHealth;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_currentHealth_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_m_currentHealth;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_L_MotionController_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_L_MotionController;
@@ -184,6 +192,20 @@ void EmptyLinkFunctionForGeneratedCodeIS2019Character() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AIS2019Character_Statics::NewProp_BaseTurnRate = { "BaseTurnRate", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIS2019Character, BaseTurnRate), METADATA_PARAMS(Z_Construct_UClass_AIS2019Character_Statics::NewProp_BaseTurnRate_MetaData, ARRAY_COUNT(Z_Construct_UClass_AIS2019Character_Statics::NewProp_BaseTurnRate_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIS2019Character_Statics::NewProp_m_maxHealth_MetaData[] = {
+		{ "Category", "Health" },
+		{ "ModuleRelativePath", "IS2019Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AIS2019Character_Statics::NewProp_m_maxHealth = { "m_maxHealth", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIS2019Character, m_maxHealth), METADATA_PARAMS(Z_Construct_UClass_AIS2019Character_Statics::NewProp_m_maxHealth_MetaData, ARRAY_COUNT(Z_Construct_UClass_AIS2019Character_Statics::NewProp_m_maxHealth_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIS2019Character_Statics::NewProp_m_currentHealth_MetaData[] = {
+		{ "Category", "Health" },
+		{ "ModuleRelativePath", "IS2019Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AIS2019Character_Statics::NewProp_m_currentHealth = { "m_currentHealth", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIS2019Character, m_currentHealth), METADATA_PARAMS(Z_Construct_UClass_AIS2019Character_Statics::NewProp_m_currentHealth_MetaData, ARRAY_COUNT(Z_Construct_UClass_AIS2019Character_Statics::NewProp_m_currentHealth_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIS2019Character_Statics::NewProp_L_MotionController_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "IS2019Character" },
@@ -274,6 +296,8 @@ void EmptyLinkFunctionForGeneratedCodeIS2019Character() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIS2019Character_Statics::NewProp_GunOffset,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIS2019Character_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIS2019Character_Statics::NewProp_BaseTurnRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIS2019Character_Statics::NewProp_m_maxHealth,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIS2019Character_Statics::NewProp_m_currentHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIS2019Character_Statics::NewProp_L_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIS2019Character_Statics::NewProp_R_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIS2019Character_Statics::NewProp_FirstPersonCameraComponent,
@@ -310,7 +334,7 @@ void EmptyLinkFunctionForGeneratedCodeIS2019Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AIS2019Character, 403416069);
+	IMPLEMENT_CLASS(AIS2019Character, 4060623858);
 	template<> IS2019_API UClass* StaticClass<AIS2019Character>()
 	{
 		return AIS2019Character::StaticClass();
