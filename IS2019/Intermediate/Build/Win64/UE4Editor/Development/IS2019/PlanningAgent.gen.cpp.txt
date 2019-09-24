@@ -1,0 +1,13 @@
+C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\Definitions.IS2019.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Source\IS2019/PlanningAgent.h
+c:\users\rion cole\desktop\is-2019\is2019\source\is2019\EnemyAgent1.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+c:\users\rion cole\desktop\is-2019\is2019\intermediate\build\win64\ue4editor\inc\is2019\EnemyAgent1.generated.h
+c:\users\rion cole\desktop\is-2019\is2019\source\is2019\SpawnPoint.h
+c:\users\rion cole\desktop\is-2019\is2019\intermediate\build\win64\ue4editor\inc\is2019\SpawnPoint.generated.h
+c:\users\rion cole\desktop\is-2019\is2019\intermediate\build\win64\ue4editor\inc\is2019\PlanningAgent.generated.h

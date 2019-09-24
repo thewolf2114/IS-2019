@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\IS2019.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{DA33126F-974B-4CF3-A852-183A4D923810}</UniqueIdentifier>
+      <UniqueIdentifier>{DB74893D-6BA8-42EF-884C-A2E532C578E4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\IS2019.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{E72E21A0-62CC-43E8-BC5F-2D09745DEBB0}</UniqueIdentifier>
+      <UniqueIdentifier>{ABFF80F9-A2D9-4509-9B4D-BF6C685C58C6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\IS2019">
-      <UniqueIdentifier>{47B791BC-B6E5-4AAB-AEBD-DAF6B602771E}</UniqueIdentifier>
+      <UniqueIdentifier>{AC6526F0-025E-43F7-BF8E-0C0EE4F00FE7}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\IS2019\EnemyAgent1.cpp">
+      <Filter>Source\IS2019</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\IS2019\EnemyAgent1.h">
+      <Filter>Source\IS2019</Filter>
+    </ClInclude>
     <None Include="..\..\Source\IS2019\IS2019.Build.cs">
       <Filter>Source\IS2019</Filter>
     </None>
@@ -65,15 +71,17 @@
     <ClInclude Include="..\..\Source\IS2019\IS2019Projectile.h">
       <Filter>Source\IS2019</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\IS2019\EnemyAgent1.h">
-      <Filter>Source\IS2019</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\IS2019\EnemyAgent1.cpp">
+    <ClCompile Include="..\..\Source\IS2019\PlanningAgent.cpp">
       <Filter>Source\IS2019</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\IS2019\PlanningAgent.h">
+      <Filter>Source\IS2019</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\IS2019\SpawnPoint.cpp">
+      <Filter>Source\IS2019</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\IS2019\SpawnPoint.h">
+      <Filter>Source\IS2019</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
