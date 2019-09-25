@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define IS2019_PlanningAgent_generated_h
 
-#define IS2019_Source_IS2019_PlanningAgent_h_15_RPC_WRAPPERS
-#define IS2019_Source_IS2019_PlanningAgent_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define IS2019_Source_IS2019_PlanningAgent_h_15_INCLASS_NO_PURE_DECLS \
+#define IS2019_Source_IS2019_PlanningAgent_h_16_RPC_WRAPPERS
+#define IS2019_Source_IS2019_PlanningAgent_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define IS2019_Source_IS2019_PlanningAgent_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPlanningAgent(); \
 	friend struct Z_Construct_UClass_APlanningAgent_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(APlanningAgent)
 
 
-#define IS2019_Source_IS2019_PlanningAgent_h_15_INCLASS \
+#define IS2019_Source_IS2019_PlanningAgent_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesAPlanningAgent(); \
 	friend struct Z_Construct_UClass_APlanningAgent_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(APlanningAgent)
 
 
-#define IS2019_Source_IS2019_PlanningAgent_h_15_STANDARD_CONSTRUCTORS \
+#define IS2019_Source_IS2019_PlanningAgent_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APlanningAgent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APlanningAgent) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define IS2019_Source_IS2019_PlanningAgent_h_15_ENHANCED_CONSTRUCTORS \
+#define IS2019_Source_IS2019_PlanningAgent_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APlanningAgent(APlanningAgent&&); \
@@ -57,26 +57,30 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlanningAgent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APlanningAgent)
 
 
-#define IS2019_Source_IS2019_PlanningAgent_h_15_PRIVATE_PROPERTY_OFFSET
-#define IS2019_Source_IS2019_PlanningAgent_h_12_PROLOG
-#define IS2019_Source_IS2019_PlanningAgent_h_15_GENERATED_BODY_LEGACY \
+#define IS2019_Source_IS2019_PlanningAgent_h_16_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__m_basicEnemyClass() { return STRUCT_OFFSET(APlanningAgent, m_basicEnemyClass); } \
+	FORCEINLINE static uint32 __PPO__m_maxEnemies() { return STRUCT_OFFSET(APlanningAgent, m_maxEnemies); }
+
+
+#define IS2019_Source_IS2019_PlanningAgent_h_13_PROLOG
+#define IS2019_Source_IS2019_PlanningAgent_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	IS2019_Source_IS2019_PlanningAgent_h_15_PRIVATE_PROPERTY_OFFSET \
-	IS2019_Source_IS2019_PlanningAgent_h_15_RPC_WRAPPERS \
-	IS2019_Source_IS2019_PlanningAgent_h_15_INCLASS \
-	IS2019_Source_IS2019_PlanningAgent_h_15_STANDARD_CONSTRUCTORS \
+	IS2019_Source_IS2019_PlanningAgent_h_16_PRIVATE_PROPERTY_OFFSET \
+	IS2019_Source_IS2019_PlanningAgent_h_16_RPC_WRAPPERS \
+	IS2019_Source_IS2019_PlanningAgent_h_16_INCLASS \
+	IS2019_Source_IS2019_PlanningAgent_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define IS2019_Source_IS2019_PlanningAgent_h_15_GENERATED_BODY \
+#define IS2019_Source_IS2019_PlanningAgent_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	IS2019_Source_IS2019_PlanningAgent_h_15_PRIVATE_PROPERTY_OFFSET \
-	IS2019_Source_IS2019_PlanningAgent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	IS2019_Source_IS2019_PlanningAgent_h_15_INCLASS_NO_PURE_DECLS \
-	IS2019_Source_IS2019_PlanningAgent_h_15_ENHANCED_CONSTRUCTORS \
+	IS2019_Source_IS2019_PlanningAgent_h_16_PRIVATE_PROPERTY_OFFSET \
+	IS2019_Source_IS2019_PlanningAgent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	IS2019_Source_IS2019_PlanningAgent_h_16_INCLASS_NO_PURE_DECLS \
+	IS2019_Source_IS2019_PlanningAgent_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

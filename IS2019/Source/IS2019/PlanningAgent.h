@@ -3,6 +3,7 @@
 #pragma once
 
 #include "Containers/Array.h"
+#include "Classes/Engine/World.h"
 #include "EnemyAgent1.h"
 #include "SpawnPoint.h"
 #include "CoreMinimal.h"
@@ -27,8 +28,14 @@ protected:
 	void PressedButton();
 
 	TArray<ASpawnPoint*>* m_spawnPoints;
-	AEnemyAgent1* m_basicEnemy;
+
+	UPROPERTY(Editanywhere, Category = "Enemy Spawn")
+	TSubclassOf<class AEnemyAgent1> m_basicEnemyClass;
 	int m_timesPressed;
+	float m_spawnTimer;
+
+	UPROPERTY(Editanywhere, Category = "Enemy Spawn")
+	int m_maxEnemies;
 
 public:	
 	// Called every frame

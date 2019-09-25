@@ -1,0 +1,28 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-IS2019-0146.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\IS2019Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\EnemyAgent1.cpp.obj"
+"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\IS2019.cpp.obj"
+"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\IS2019Character.cpp.obj"
+"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\IS2019GameMode.cpp.obj"
+"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\IS2019HUD.cpp.obj"
+"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\IS2019Projectile.cpp.obj"
+"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\PlanningAgent.cpp.obj"
+"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\SpawnPoint.cpp.obj"
+"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\EnemyAgent1.gen.cpp.obj"
+"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\IS2019.init.gen.cpp.obj"
+"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\IS2019Character.gen.cpp.obj"
+"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\IS2019GameMode.gen.cpp.obj"
+"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\IS2019HUD.gen.cpp.obj"
+"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\IS2019Projectile.gen.cpp.obj"
+"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\PlanningAgent.gen.cpp.obj"
+"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\SpawnPoint.gen.cpp.obj"
+"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\Default.rc2.res"
+/OUT:"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\UE4Editor-IS2019-0146.lib"
+/INCLUDE:IMPLEMENT_MODULE_IS2019
