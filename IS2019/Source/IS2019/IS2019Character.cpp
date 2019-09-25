@@ -2,6 +2,8 @@
 
 #include "IS2019Character.h"
 #include "IS2019Projectile.h"
+#include "PlanningAgent.h"
+#include "EngineUtils.h"
 #include "Animation/AnimInstance.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
@@ -164,7 +166,7 @@ void AIS2019Character::OnFire()
 
 				//Set Spawn Collision Handling Override
 				FActorSpawnParameters ActorSpawnParams;
-				ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+				ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 
 				// spawn the projectile at the muzzle
 				World->SpawnActor<AIS2019Projectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
@@ -187,6 +189,12 @@ void AIS2019Character::OnFire()
 		{
 			AnimInstance->Montage_Play(FireAnimation, 1.f);
 		}
+	}
+
+	for (TActorIterator<APlanningAgent> ActorITR(GetWorld()); ActorITR; ++ActorITR)
+	{
+		APlanningAgent* planningAgent = *ActorITR;
+		planningAgent->PressedButton();
 	}
 }
 

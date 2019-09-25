@@ -7,6 +7,7 @@
 #include "EnemyAgent1.h"
 #include "SpawnPoint.h"
 #include "CoreMinimal.h"
+#include "Engine.h"
 #include "GameFramework/Actor.h"
 #include "PlanningAgent.generated.h"
 
@@ -25,14 +26,15 @@ protected:
 	virtual void BeginPlay() override;
 
 	void SpawnEnemy();
-	void PressedButton();
-
-	TArray<ASpawnPoint*>* m_spawnPoints;
 
 	UPROPERTY(Editanywhere, Category = "Enemy Spawn")
 	TSubclassOf<class AEnemyAgent1> m_basicEnemyClass;
+
+	TArray<ASpawnPoint*>* m_spawnPoints;
 	int m_timesPressed;
 	float m_spawnTimer;
+	float m_inputTimer;
+	int m_enemiesSpawned;
 
 	UPROPERTY(Editanywhere, Category = "Enemy Spawn")
 	int m_maxEnemies;
@@ -40,5 +42,6 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
+	void PressedButton();
+	void EnemyDied();
 };

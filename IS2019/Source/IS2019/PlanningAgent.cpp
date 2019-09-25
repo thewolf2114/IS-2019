@@ -12,6 +12,9 @@ APlanningAgent::APlanningAgent()
 	PrimaryActorTick.bCanEverTick = true;
 
 	m_spawnTimer = 1;
+	m_inputTimer = 1;
+	m_maxEnemies = 10;
+	m_enemiesSpawned = 0;
 	m_spawnPoints = new TArray<ASpawnPoint*>();
 }
 
@@ -50,6 +53,8 @@ void APlanningAgent::SpawnEnemy()
 		enemySpawnTransform.SetScale3D(FVector(1.f));
 
 		GetWorld()->SpawnActor<AEnemyAgent1>(m_basicEnemyClass, enemySpawnTransform, spawnParams);
+
+		m_enemiesSpawned++;
 	}
 }
 
@@ -58,17 +63,42 @@ void APlanningAgent::PressedButton()
 	m_timesPressed++;
 }
 
+void APlanningAgent::EnemyDied()
+{
+	m_enemiesSpawned--;
+}
+
 // Called every frame
 void APlanningAgent::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (m_spawnTimer <= 0)
+	GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Yellow, FString::FromInt(m_maxEnemies));
+
+	if (m_spawnTimer <= 0 && m_enemiesSpawned < m_maxEnemies)
 	{
 		m_spawnTimer = 1;
 		SpawnEnemy();
 	}
 	else
 		m_spawnTimer -= DeltaTime;
+
+	if (m_inputTimer <= 0)
+	{
+		m_inputTimer = 1;
+
+		if (m_timesPressed < 5)
+		{
+			m_maxEnemies += 5;
+		}
+		else if (m_timesPressed > 5)
+		{
+			m_maxEnemies = 10;
+		}
+
+		m_timesPressed = 0;
+	}
+	else
+		m_inputTimer -= DeltaTime;
 }
 
