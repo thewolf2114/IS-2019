@@ -65,7 +65,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AIS2019Character); \
 	FORCEINLINE static uint32 __PPO__VR_MuzzleLocation() { return STRUCT_OFFSET(AIS2019Character, VR_MuzzleLocation); } \
 	FORCEINLINE static uint32 __PPO__FirstPersonCameraComponent() { return STRUCT_OFFSET(AIS2019Character, FirstPersonCameraComponent); } \
 	FORCEINLINE static uint32 __PPO__R_MotionController() { return STRUCT_OFFSET(AIS2019Character, R_MotionController); } \
-	FORCEINLINE static uint32 __PPO__L_MotionController() { return STRUCT_OFFSET(AIS2019Character, L_MotionController); }
+	FORCEINLINE static uint32 __PPO__L_MotionController() { return STRUCT_OFFSET(AIS2019Character, L_MotionController); } \
+	FORCEINLINE static uint32 __PPO__m_currentHealth() { return STRUCT_OFFSET(AIS2019Character, m_currentHealth); } \
+	FORCEINLINE static uint32 __PPO__m_maxHealth() { return STRUCT_OFFSET(AIS2019Character, m_maxHealth); }
 
 
 #define IS2019_Source_IS2019_IS2019Character_h_11_PROLOG

@@ -2,6 +2,10 @@
 	"BuildId": "8386587",
 	"Modules": 
 	{
+<<<<<<< HEAD
 		"IS2019": "UE4Editor-IS2019-0001.dll"
+=======
+		"IS2019": "UE4Editor-IS2019-0015.dll"
+>>>>>>> master
 	}
 }

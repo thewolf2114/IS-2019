@@ -2,6 +2,8 @@
 
 #include "IS2019Character.h"
 #include "IS2019Projectile.h"
+#include "PlanningAgent.h"
+#include "EngineUtils.h"
 #include "Animation/AnimInstance.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
@@ -82,6 +84,10 @@ AIS2019Character::AIS2019Character()
 
 	// Uncomment the following line to turn motion controllers on by default:
 	//bUsingMotionControllers = true;
+
+	// initialize health
+	m_maxHealth = 100;
+	m_currentHealth = m_maxHealth;
 }
 
 void AIS2019Character::BeginPlay()
@@ -160,7 +166,7 @@ void AIS2019Character::OnFire()
 
 				//Set Spawn Collision Handling Override
 				FActorSpawnParameters ActorSpawnParams;
-				ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+				ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 
 				// spawn the projectile at the muzzle
 				World->SpawnActor<AIS2019Projectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
@@ -183,6 +189,12 @@ void AIS2019Character::OnFire()
 		{
 			AnimInstance->Montage_Play(FireAnimation, 1.f);
 		}
+	}
+
+	for (TActorIterator<APlanningAgent> ActorITR(GetWorld()); ActorITR; ++ActorITR)
+	{
+		APlanningAgent* planningAgent = *ActorITR;
+		planningAgent->PressedButton();
 	}
 }
 
@@ -270,6 +282,11 @@ void AIS2019Character::MoveRight(float Value)
 		// add movement in that direction
 		AddMovementInput(GetActorRightVector(), Value);
 	}
+}
+
+void AIS2019Character::TakeDamage(float damage)
+{
+	m_currentHealth -= damage;
 }
 
 void AIS2019Character::TurnAtRate(float Rate)
