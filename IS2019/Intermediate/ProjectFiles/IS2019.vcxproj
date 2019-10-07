@@ -393,8 +393,8 @@
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
 		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-		<LayoutDir>C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Binaries\HoloLens\AppX</LayoutDir>
-		<AppxPackageRecipe>C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Binaries\HoloLens\IS2019.build.appxrecipe</AppxPackageRecipe>
+		<LayoutDir>C:\Users\Rion Cole\Desktop\IS2019\IS2019\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\Rion Cole\Desktop\IS2019\IS2019\Binaries\HoloLens\IS2019.build.appxrecipe</AppxPackageRecipe>
 	</PropertyGroup>
     <ItemGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
 		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
@@ -492,8 +492,8 @@
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
 		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-		<LayoutDir>C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Binaries\HoloLens\AppX</LayoutDir>
-		<AppxPackageRecipe>C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Binaries\HoloLens\IS2019.build.appxrecipe</AppxPackageRecipe>
+		<LayoutDir>C:\Users\Rion Cole\Desktop\IS2019\IS2019\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\Rion Cole\Desktop\IS2019\IS2019\Binaries\HoloLens\IS2019.build.appxrecipe</AppxPackageRecipe>
 	</PropertyGroup>
     <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
 		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
@@ -574,8 +574,8 @@
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
 		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-		<LayoutDir>C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Binaries\HoloLens\AppX</LayoutDir>
-		<AppxPackageRecipe>C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Binaries\HoloLens\IS2019.build.appxrecipe</AppxPackageRecipe>
+		<LayoutDir>C:\Users\Rion Cole\Desktop\IS2019\IS2019\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\Rion Cole\Desktop\IS2019\IS2019\Binaries\HoloLens\IS2019.build.appxrecipe</AppxPackageRecipe>
 	</PropertyGroup>
     <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
 		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />

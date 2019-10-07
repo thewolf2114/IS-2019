@@ -2,7 +2,6 @@
 
 #include "IS2019Character.h"
 #include "IS2019Projectile.h"
-#include "PlanningAgent.h"
 #include "EngineUtils.h"
 #include "Animation/AnimInstance.h"
 #include "Camera/CameraComponent.h"
@@ -189,12 +188,6 @@ void AIS2019Character::OnFire()
 		{
 			AnimInstance->Montage_Play(FireAnimation, 1.f);
 		}
-	}
-
-	for (TActorIterator<APlanningAgent> ActorITR(GetWorld()); ActorITR; ++ActorITR)
-	{
-		APlanningAgent* planningAgent = *ActorITR;
-		planningAgent->PressedButton();
 	}
 }
 

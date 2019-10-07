@@ -2,7 +2,6 @@
 
 
 #include "EnemyAgent1.h"
-#include "PlanningAgent.h"
 #include "IS2019Character.h"
 #include "IS2019GameMode.h"
 #include "GameFramework/CharacterMovementComponent.h"
@@ -158,11 +157,6 @@ void AEnemyAgent1::TakeDamage(float damage)
 
 	if (m_health <= 0)
 	{
-		for (TActorIterator<APlanningAgent> ActorITR(GetWorld()); ActorITR; ++ActorITR)
-		{
-			APlanningAgent* planningAgent = *ActorITR;
-			planningAgent->EnemyDied();
-		}
 
 		Destroy();
 	}
