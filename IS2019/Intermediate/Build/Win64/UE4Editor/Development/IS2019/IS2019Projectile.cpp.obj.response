@@ -498,9 +498,9 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I Runtime\ClothingSystemRuntimeInterface
-/I "C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Inc\IS2019"
-/I "C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Source"
-/I "C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Source\IS2019"
+/I "C:\Users\Rion Cole\Desktop\IS2019\IS2019\Intermediate\Build\Win64\UE4Editor\Inc\IS2019"
+/I "C:\Users\Rion Cole\Desktop\IS2019\IS2019\Source"
+/I "C:\Users\Rion Cole\Desktop\IS2019\IS2019\Source\IS2019"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I Runtime\AugmentedReality
@@ -533,12 +533,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\IS2019Editor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\IS2019Editor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\IS2019Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Source\IS2019\IS2019Projectile.cpp"
-/FI"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\Definitions.IS2019.h"
-/Fo"C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\IS2019Projectile.cpp.obj"
+/FI"C:\Users\Rion Cole\Desktop\IS2019\IS2019\Intermediate\Build\Win64\IS2019Editor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\Rion Cole\Desktop\IS2019\IS2019\Intermediate\Build\Win64\IS2019Editor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\Rion Cole\Desktop\IS2019\IS2019\Intermediate\Build\Win64\IS2019Editor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\Rion Cole\Desktop\IS2019\IS2019\Source\IS2019\IS2019Projectile.cpp"
+/FI"C:\Users\Rion Cole\Desktop\IS2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\Definitions.IS2019.h"
+/Fo"C:\Users\Rion Cole\Desktop\IS2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\IS2019Projectile.cpp.obj"
 /TP
 /GR-
 /W4

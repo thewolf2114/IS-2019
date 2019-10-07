@@ -1,17 +1,17 @@
-C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\Definitions.IS2019.h
-c:\users\rion cole\desktop\is-2019\is2019\source\is2019\IS2019Character.h
+C:\Users\Rion Cole\Desktop\IS2019\IS2019\Intermediate\Build\Win64\UE4Editor\Development\IS2019\Definitions.IS2019.h
+c:\users\rion cole\desktop\is2019\is2019\source\is2019\IS2019Character.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Inc\IS2019\IS2019Character.generated.h
-c:\users\rion cole\desktop\is-2019\is2019\source\is2019\IS2019Projectile.h
-C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Inc\IS2019\IS2019Projectile.generated.h
-c:\users\rion cole\desktop\is-2019\is2019\source\is2019\PlanningAgent.h
-c:\users\rion cole\desktop\is-2019\is2019\source\is2019\EnemyAgent1.h
-C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Inc\IS2019\EnemyAgent1.generated.h
-c:\users\rion cole\desktop\is-2019\is2019\source\is2019\SpawnPoint.h
-C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Inc\IS2019\SpawnPoint.generated.h
+C:\Users\Rion Cole\Desktop\IS2019\IS2019\Intermediate\Build\Win64\UE4Editor\Inc\IS2019\IS2019Character.generated.h
+c:\users\rion cole\desktop\is2019\is2019\source\is2019\IS2019Projectile.h
+C:\Users\Rion Cole\Desktop\IS2019\IS2019\Intermediate\Build\Win64\UE4Editor\Inc\IS2019\IS2019Projectile.generated.h
+c:\users\rion cole\desktop\is2019\is2019\source\is2019\PlanningAgent.h
+c:\users\rion cole\desktop\is2019\is2019\source\is2019\EnemyAgent1.h
+C:\Users\Rion Cole\Desktop\IS2019\IS2019\Intermediate\Build\Win64\UE4Editor\Inc\IS2019\EnemyAgent1.generated.h
+c:\users\rion cole\desktop\is2019\is2019\source\is2019\SpawnPoint.h
+C:\Users\Rion Cole\Desktop\IS2019\IS2019\Intermediate\Build\Win64\UE4Editor\Inc\IS2019\SpawnPoint.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Public\Engine.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Core.h
@@ -674,7 +674,7 @@ c:\program files\epic games\ue_4.23\engine\source\runtime\slate\public\Widgets/I
 c:\program files\epic games\ue_4.23\engine\source\runtime\slate\public\Widgets/Input/SSlider.h
 c:\program files\epic games\ue_4.23\engine\source\runtime\slate\public\Widgets/Input/SComboBox.h
 c:\program files\epic games\ue_4.23\engine\source\runtime\slate\public\Framework/Docking/LayoutService.h
-C:\Users\Rion Cole\Desktop\IS-2019\IS2019\Intermediate\Build\Win64\UE4Editor\Inc\IS2019\PlanningAgent.generated.h
+C:\Users\Rion Cole\Desktop\IS2019\IS2019\Intermediate\Build\Win64\UE4Editor\Inc\IS2019\PlanningAgent.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\HeadMountedDisplay\Public\HeadMountedDisplayFunctionLibrary.h
 c:\program files\epic games\ue_4.23\engine\source\runtime\headmounteddisplay\public\HeadMountedDisplayTypes.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\HeadMountedDisplayTypes.generated.h
