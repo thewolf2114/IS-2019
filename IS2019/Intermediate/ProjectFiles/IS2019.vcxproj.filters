@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\IS2019.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E1D9B610-EB29-46EB-B62D-F2AB922D3D5D}</UniqueIdentifier>
+      <UniqueIdentifier>{3145C24B-3D8F-491B-BB28-D955B1424038}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\IS2019.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{CB298D4B-D6F7-4AD5-B5EB-15ADB6546E60}</UniqueIdentifier>
+      <UniqueIdentifier>{E3F65312-F065-429B-92EF-6424FDE73ADB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\IS2019">
-      <UniqueIdentifier>{2BF5F38E-911F-49E9-AE8C-C5A620C8F08F}</UniqueIdentifier>
+      <UniqueIdentifier>{3AE6670C-6A97-48C4-AEC9-A63D0030918E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\IS2019\EnemyAgent1.cpp">
       <Filter>Source\IS2019</Filter>
@@ -71,17 +71,21 @@
     <ClInclude Include="..\..\Source\IS2019\IS2019Projectile.h">
       <Filter>Source\IS2019</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\IS2019\PlanningAgent.cpp">
-      <Filter>Source\IS2019</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\IS2019\PlanningAgent.h">
-      <Filter>Source\IS2019</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\IS2019\SpawnPoint.cpp">
       <Filter>Source\IS2019</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\IS2019\SpawnPoint.h">
       <Filter>Source\IS2019</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\IS2019\PlanningAgent.h">
+      <Filter>Source\IS2019</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\IS2019\PlanningAgent.cpp">
+      <Filter>Source\IS2019</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

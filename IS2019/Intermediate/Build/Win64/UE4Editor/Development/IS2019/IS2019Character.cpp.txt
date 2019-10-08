@@ -7,6 +7,8 @@ C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Users\Rion Cole\Desktop\IS2019\IS2019\Intermediate\Build\Win64\UE4Editor\Inc\IS2019\IS2019Character.generated.h
 c:\users\rion cole\desktop\is2019\is2019\source\is2019\IS2019Projectile.h
 C:\Users\Rion Cole\Desktop\IS2019\IS2019\Intermediate\Build\Win64\UE4Editor\Inc\IS2019\IS2019Projectile.generated.h
+c:\users\rion cole\desktop\is2019\is2019\source\is2019\PlanningAgent.h
+C:\Users\Rion Cole\Desktop\IS2019\IS2019\Intermediate\Build\Win64\UE4Editor\Inc\IS2019\PlanningAgent.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Public\EngineUtils.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h

@@ -2,6 +2,7 @@
 
 #include "IS2019Character.h"
 #include "IS2019Projectile.h"
+#include "PlanningAgent.h"
 #include "EngineUtils.h"
 #include "Animation/AnimInstance.h"
 #include "Camera/CameraComponent.h"
@@ -141,6 +142,19 @@ void AIS2019Character::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 	PlayerInputComponent->BindAxis("TurnRate", this, &AIS2019Character::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AIS2019Character::LookUpAtRate);
+
+	for (TActorIterator<APlanningAgent> ActorITR(GetWorld()); ActorITR; ++ActorITR)
+	{
+		APlanningAgent* planningAgent = *ActorITR;
+		if (planningAgent)
+		{
+			PlayerInputComponent->BindAction("Fire", IE_Pressed, planningAgent, &APlanningAgent::DetectFire);
+			PlayerInputComponent->BindAction("Jump", IE_Pressed, planningAgent, &APlanningAgent::DetectJump);
+
+			PlayerInputComponent->BindAxis("MoveForward", planningAgent, &APlanningAgent::MoveForward);
+			PlayerInputComponent->BindAxis("MoveRight", planningAgent, &APlanningAgent::MoveRight);
+		}
+	}
 }
 
 void AIS2019Character::OnFire()
