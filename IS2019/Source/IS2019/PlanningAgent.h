@@ -3,6 +3,9 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "SpawnPoint.h"
+#include "EnemyAgent1.h"
+#include "Containers/Array.h"
 #include "GameFramework/Actor.h"
 #include "PlanningAgent.generated.h"
 
@@ -32,6 +35,10 @@ protected:
 	float m_enemyHealth;
 	float m_enemyAggression;
 	float m_enemySpeed;
+
+	UPROPERTY(EditAnywhere, Category = "Spawn Enemy")
+	TSubclassOf<AEnemyAgent1> m_enemyClass;
+	TArray<ASpawnPoint> m_spawnPoints;
 
 public:	
 	// Called every frame

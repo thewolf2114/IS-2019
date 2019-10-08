@@ -2,6 +2,7 @@
 
 
 #include "PlanningAgent.h"
+#include "Engine.h"
 
 // Sets default values
 APlanningAgent::APlanningAgent()
@@ -18,6 +19,11 @@ APlanningAgent::APlanningAgent()
 	m_enemyHealth = 100;
 	m_enemyAggression = 0;
 	m_enemySpeed = 500;
+
+	for (TActorIterator<ASpawnPoint> ActorITR(GetWorld()); ActorITR; ++ActorITR)
+	{
+
+	}
 }
 
 // Called when the game starts or when spawned

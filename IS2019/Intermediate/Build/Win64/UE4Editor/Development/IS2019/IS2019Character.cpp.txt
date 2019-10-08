@@ -8,6 +8,10 @@ C:\Users\Rion Cole\Desktop\IS2019\IS2019\Intermediate\Build\Win64\UE4Editor\Inc\
 c:\users\rion cole\desktop\is2019\is2019\source\is2019\IS2019Projectile.h
 C:\Users\Rion Cole\Desktop\IS2019\IS2019\Intermediate\Build\Win64\UE4Editor\Inc\IS2019\IS2019Projectile.generated.h
 c:\users\rion cole\desktop\is2019\is2019\source\is2019\PlanningAgent.h
+c:\users\rion cole\desktop\is2019\is2019\source\is2019\SpawnPoint.h
+C:\Users\Rion Cole\Desktop\IS2019\IS2019\Intermediate\Build\Win64\UE4Editor\Inc\IS2019\SpawnPoint.generated.h
+c:\users\rion cole\desktop\is2019\is2019\source\is2019\EnemyAgent1.h
+C:\Users\Rion Cole\Desktop\IS2019\IS2019\Intermediate\Build\Win64\UE4Editor\Inc\IS2019\EnemyAgent1.generated.h
 C:\Users\Rion Cole\Desktop\IS2019\IS2019\Intermediate\Build\Win64\UE4Editor\Inc\IS2019\PlanningAgent.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Public\EngineUtils.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
